@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>HH_HatWitch</headwear><bodyPiece>HH_CostumeWitch</bodyPiece></li>
+      <li><headwear>HH_HatVampire</headwear><bodyPiece>HH_CostumeVampire</bodyPiece></li>
+      <li><headwear>HH_HatSkeleton</headwear><bodyPiece>HH_CostumeSkeleton</bodyPiece></li>
+      <li><headwear>HH_HatGhost</headwear><bodyPiece>HH_CostumeGhost</bodyPiece></li>
+      <li><headwear>HH_HatScarecrow</headwear><bodyPiece>HH_CostumeScarecrow</bodyPiece></li>
+      <li><headwear>HH_HatPumpkinKnight</headwear><bodyPiece>HH_CostumePumpkinKnight</bodyPiece></li>
+      <li><headwear>HH_HatPirate</headwear><bodyPiece>HH_CostumePirate</bodyPiece></li>
+      <li><headwear>HH_HatMoonWizard</headwear><bodyPiece>HH_CostumeMoonWizard</bodyPiece></li>
+      <li><headwear>HH_HatMoth</headwear><bodyPiece>HH_CostumeMoth</bodyPiece></li>
+      <li><headwear>HH_HatPlagueDoctor</headwear><bodyPiece>HH_CostumePlagueDoctor</bodyPiece></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+    <value>
+      <li><headwear>HH_HatLittleDragon</headwear><bodyPiece>HH_CostumeLittleDragon</bodyPiece></li>
+      <li><headwear>HH_HatStarSprite</headwear><bodyPiece>HH_CostumeStarSprite</bodyPiece></li>
+      <li><headwear>HH_HatCandyCornScout</headwear><bodyPiece>HH_CostumeCandyCornScout</bodyPiece></li>
+    </value>
+  </Operation>
+</Patch>

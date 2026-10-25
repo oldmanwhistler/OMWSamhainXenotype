@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>Apparel_SCPumpkinHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCJasonHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCPennyHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCFreddyHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCLecterHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCPinHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCSkullHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCScreamHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCWitchHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_WitchesHat</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_MummyHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_WolfmanMask</headwear><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

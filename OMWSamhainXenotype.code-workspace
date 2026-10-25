@@ -1,0 +1,33 @@
+{
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml",
+		"editor.formatOnSave": true
+	},
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"markdown.extension.completion.enabled": false,
+		"markdown.extension.tableFormatter.enabled": false,
+		"cSpell.words": [
+			"bigsmall",
+			"glitterworld",
+			"Kallax",
+			"Modmixer",
+			"nerfs",
+			"oldmanwhistler",
+			"redmattis",
+			"shuffleable",
+			"Skyrim",
+			"Snek",
+			"specialities",
+			"Storageborn",
+			"storagebornxenotype",
+			"Treant",
+			"Xenotype",
+			"Xenotypes"
+		]
+	}
+}

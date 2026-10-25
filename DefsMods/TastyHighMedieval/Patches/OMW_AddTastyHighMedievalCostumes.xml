@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>TA_Greathelm</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_KettleHat</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_Headscarf</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_FurhatNordic</headwear><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

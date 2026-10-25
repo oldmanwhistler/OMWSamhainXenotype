@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/NeedDef[defName="VME_Desserts"]</xpath>
+    <value>
+      <onlyIfCausedByGene>true</onlyIfCausedByGene>
+      <onlyIfCausedByIdeo>true</onlyIfCausedByIdeo>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PreceptDef[defName="VME_Sweets_Craved"]</xpath>
+    <value>
+      <enablesNeeds><li>VME_Desserts</li></enablesNeeds>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PreceptDef[defName="VME_Sweets_Impartial"]</xpath>
+    <value>
+      <enablesNeeds><li>VME_Desserts</li></enablesNeeds>
+    </value>
+  </Operation>
+</Patch>

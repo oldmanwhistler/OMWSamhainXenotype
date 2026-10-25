@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>PLG_PlagueDoctorHat</headwear><bodyPiece>PLG_PlagueDoctorOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>PLG_PlagueDoctorHood</headwear><bodyPiece>PLG_PlagueDoctorOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

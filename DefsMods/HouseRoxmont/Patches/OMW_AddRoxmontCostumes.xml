@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>DankPyon_Headgear_ZweihanderHelmRoxmont</headwear><bodyPiece>DankPyon_Apparel_Zweihanders_Cuirass_Roxmont</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeraldicGreatHelmRoxmont</headwear><bodyPiece>DankPyon_Apparel_FullPlate_Roxmont</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

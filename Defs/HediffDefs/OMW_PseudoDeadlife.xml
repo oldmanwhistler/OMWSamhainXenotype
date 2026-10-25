@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- based on Pseudo-Deadlife from AlphaGenes - I couldn't use it directly because I didn't want psychic=0 -->
+  <HediffDef>
+    <defName>OMW_PseudoDeadlife</defName>
+    <label>pseudo-deadlife</label>
+    <description>There's something off about this creature.</description>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <hungerRateFactor>0.7</hungerRateFactor>
+        <restFallFactor>0.7</restFallFactor>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

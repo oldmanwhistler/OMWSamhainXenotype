@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>pphhyy_Barbarian_BoneHelm</headwear><bodyPiece>pphhyy_Barbarian_BoneArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>pphhyy_Barbarian_BearHeaddress</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>pphhyy_Barbarian_HeadBand</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>pphhyy_Barbarians_WarlordHelm</headwear><bodyPiece>pphhyy_Barbarian_WarlordArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>pphhyy_Barbarians_MetalHelm</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>pphhyy_Barbarians_SpikedCap</headwear><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

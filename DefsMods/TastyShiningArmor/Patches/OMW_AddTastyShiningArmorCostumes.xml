@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>TA_Armet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_BascinetKlapvisor</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_BascinetRound</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_Bascinet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_BascinetOpen</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_OpenSallet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_KettleHatA</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_KettleHatB</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_OpenFaceHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_VisorSallet</headwear><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

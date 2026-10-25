@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>TA_Burgonet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_BurgonetVisored_off</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_LobstertailHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_HussarHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_SipahiHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_CavalryHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_CloseHelmet_off</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_PikemanHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_HatCavalier</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_MusketeerHat</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_LandsknechtHat</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_Bonnet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_Turban</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_TurbanWhite</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_JanissaryHat</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_FurCap</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_NobleFurCap</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_FeltHat</headwear><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef>
+    <defName>OMW_Samhain_SweetTooth</defName>
+    <label>sweet tooth</label>
+    <labelShortAdj>sweet-toothed</labelShortAdj>
+    <description>Xenotypes with this gene have a need for desserts.</description>
+    <iconPath>UI/Genes/OMW_SweetTooth</iconPath>
+	  <displayCategory>OMW_Samhain</displayCategory>    
+    <biostatCpx>0</biostatCpx>
+    <enablesNeeds><li>VME_Desserts</li></enablesNeeds>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+  </GeneDef>
+</Defs>

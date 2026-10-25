@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>OMW_Samhain</defName>
+    <label>Samhain</label>
+    <description>A Samhain xenotype.</description>
+    <iconPath>UI/Icons/Xenotypes/OMW_Samhain</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>    
+    <canGenerateAsCombatant>true</canGenerateAsCombatant>    
+  <genes>
+    <li>OMW_Samhain</li>
+    <li MayRequire="vanillaexpanded.vcooke">OMW_Samhain_SweetTooth</li>
+    <li MayRequire="vanillaexpanded.vcooke,vanillaexpanded.vmemese">OMW_Samhain_Costumed</li>
+    <li MayRequire="redmattis.bigsmall.core">GnomeFrame</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_TinyTough</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_ToughSkin</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_FeedingFrenzy</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_SlowAging</li>
+    <li MayRequire="redmattis.bigsmall.core">VU_Lesser_Unliving_Resilience</li>
+    <li MayRequire="redmattis.bigsmall.core">VU_Unliving</li>
+    <li MayRequire="sarg.alphagenes">AG_TarBlood</li>
+    <li MayRequire="redmattis.bigsmall.core">VU_NoBlood</li>
+    <!-- digestion and health -->
+    <li MayRequire="redmattis.bigsmall.core">BS_Diet_Carnivore</li>
+    <li>Immunity_Strong</li>
+    <li>StrongStomach</li>
+    <li>RobustDigestion</li>
+    <!-- darkness -->
+    <li MayRequire="sarg.alphagenes">AG_Invisibility</li>
+    <li MayRequire="redmattis.bigsmall.core">VU_DarknessWoundHealing_UltraFast</li>
+    <li MayRequire="redmattis.bigsmall.core">VU_Darkness_MoveSpeed_VeryQuick</li>
+    <li>UVSensitivity_Intense</li>    
+    <li MayRequire="redmattis.bigsmall.core">VU_DarknessMelee_Strong</li>
+    <!-- social-->
+    <li>KillThirst</li>
+    <li>Mood_Pessimist</li>
+    <li MayRequire="sarg.alphagenes">AG_Rowdy</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_Abrasive</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_DroneKind</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_NoFamilyRelations</li>
+    <li MayRequire="sarg.alphagenes">AG_FertilityDarkness</li>
+    <!-- appearance -->
+    <li MayRequire="redmattis.bigsmall.core">VU_Pallor</li>
+    <li>FacialRidges</li>
+    <li MayRequire="sarg.alphagenes">AG_VeryGauntHead</li>
+    <li MayRequire="sarg.alphagenes">AG_CancerousBody</li>
+    <li>Body_Standard</li>
+    <li>Body_Thin</li>
+    <li>Skin_Orange</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_Skin_DarkAsh</li>
+    <!-- aptitudes -->
+    <li>AptitudePoor_Shooting</li>
+    <li>AptitudeRemarkable_Melee</li>
+    <li>AptitudePoor_Artistic</li>
+    <li>AptitudeTerrible_Social</li>
+    <li>AptitudeTerrible_Intellectual</li>
+    <!-- prevent random genes from messing with it -->
+    <li>Ears_Human</li>
+    <li>Hands_Human</li>
+    <li>Hair_BaldOnly</li>
+    <li>Beard_NoBeardOnly</li>
+    <li MayRequire="sarg.alphagenes">AG_NoTusks</li>
+    <li MayRequire="sarg.alphagenes">AG_NoAntennae</li>
+    <li MayRequire="sarg.alphagenes">AG_NoLowerAntennae</li>
+    <li MayRequire="sarg.alphagenes">AG_NoLeather</li>
+    <li MayRequire="sarg.alphagenes">AG_NoMeat</li>
+  </genes>
+  </XenotypeDef>
+</Defs>

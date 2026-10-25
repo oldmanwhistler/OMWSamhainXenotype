@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>Ignivar_Hood</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Ignivar_Kettle</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Ignivar_Kettle_Face</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Ignivar_Barbute</headwear><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

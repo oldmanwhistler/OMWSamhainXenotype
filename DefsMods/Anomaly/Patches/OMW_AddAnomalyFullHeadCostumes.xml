@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>Apparel_CultistMask</headwear></li>
+      <li><headwear>Apparel_CeremonialCultistMask</headwear></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+    <value>
+      <li><headwear>Apparel_CultistMask</headwear></li>
+      <li><headwear>Apparel_CeremonialCultistMask</headwear></li>
+    </value>
+  </Operation>
+</Patch>

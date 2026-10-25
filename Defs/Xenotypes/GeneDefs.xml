@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>OMW_Samhain</defName>
+        <label>Samhain Xenotype</label>
+        <displayPriorityInXenotype>1</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+	<GeneDef>
+		<defName>OMW_Samhain</defName>
+        <label>Samhain</label>
+		<description>The Samhain are mysterious beings that can be summoned by blood and chocolate.</description>
+		<iconPath>UI/Genes/OMW_Samhain</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<displayCategory>OMW_Samhain</displayCategory>
+		<selectionWeight>0</selectionWeight>
+		<descriptionHyperlinks>
+			<HediffDef>OMW_PseudoDeadlife</HediffDef>
+		</descriptionHyperlinks>
+		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">
+				<hediffToWholeBody>OMW_PseudoDeadlife</hediffToWholeBody>
+			</li>
+		</modExtensions>
+    	<canGenerateInGeneSet>false</canGenerateInGeneSet>		
+        <suppressedTraits>
+            <li>
+            <def>Kind</def>
+            </li>
+        </suppressedTraits>    
+        <forcedTraits>
+            <li>
+                <def>Psychopath</def>
+                <degree>0</degree>
+            </li>
+            <li>
+                <def>NightOwl</def>
+                <degree>0</degree>
+            </li>
+        </forcedTraits>
+        <exclusionTags>
+            <li>KindInstinct</li>
+            <li>ViolenceDisabled</li>
+        </exclusionTags>    
+        <painFactor>0</painFactor>
+        <statFactors>
+            <MeleeCooldownFactor>0.75</MeleeCooldownFactor>
+            <PsychicSensitivity>1.15</PsychicSensitivity>
+        </statFactors>
+        <statOffsets>
+            <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+            <ComfyTemperatureMax>30</ComfyTemperatureMax>
+            <ToxicResistance>1</ToxicResistance>
+        </statOffsets>            
+	</GeneDef>
+</Defs>

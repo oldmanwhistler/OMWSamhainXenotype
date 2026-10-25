@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>[OMW] Samhain Xenotype</name>
+  <packageId>oldmanwhistler.SamhainXenotype</packageId>
+  <author>oldmanwhistler</author>
+  <description>Adds the player-selectable Samhain xenotype, optional VME need genes, and an Anomaly sacrifice ritual.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>RedMattis.BigSmall.Core</packageId>
+      <displayName>Big and Small - Genes &amp; More</displayName>
+    </li>
+    <li>
+      <packageId>sarg.alphagenes</packageId>
+      <displayName>Alpha Genes</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>RedMattis.BigSmall.Core</li>
+    <li>sarg.alphagenes</li>
+    <li>vanillaexpanded.vmemese</li>
+    <li>vanillaexpanded.vcooke</li>
+    <li>tbmodding.halloweenharvest</li>
+  </loadAfter>    
+</ModMetaData>

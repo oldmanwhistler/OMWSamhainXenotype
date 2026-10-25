@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>Apparel_HatHood</headwear><bodyPiece>Apparel_RobeRoyal</bodyPiece></li>
+      <li><headwear>Apparel_ArmorHelmetCataphract</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorHelmetCataphractPrestige</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorHelmetReconPrestige</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorMarineHelmetPrestige</headwear><defaultEnabled>false</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SamhainXenotype.SamhainCostumePoolDef>
+    <defName>OMW_SamhainCostumePool</defName>
+    <adultCostumes>
+      <li><headwear>Apparel_WarMask</headwear><bodyPiece>Apparel_Robe</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_WarVeil</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_PowerArmorHelmet</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorHelmetRecon</headwear><defaultEnabled>false</defaultEnabled></li>
+    </adultCostumes>
+    <childCostumes>
+      <li><headwear>Apparel_WarVeil</headwear><bodyPiece>Apparel_KidParka</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_TribalHeaddress</headwear><bodyPiece>Apparel_KidParka</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </childCostumes>
+  </SamhainXenotype.SamhainCostumePoolDef>
+</Defs>

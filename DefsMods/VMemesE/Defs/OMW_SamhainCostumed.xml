@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef>
+    <defName>OMW_Samhain_Costumed</defName>
+    <label>costumed</label>
+    <labelShortAdj>costumed</labelShortAdj>
+    <description>Xenotypes with this gene have a tendency to wear costumes to hide their true nature.</description>
+    <iconPath>UI/Genes/OMW_Costumed</iconPath>
+	  <displayCategory>OMW_Samhain</displayCategory>    
+    <biostatCpx>0</biostatCpx>
+    <enablesNeeds><li>VME_Anonymity</li></enablesNeeds>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+  </GeneDef>
+</Defs>
