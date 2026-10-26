@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Lavas_CambionMask"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Lavas_HarlequinMask"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Lavas_DevilMask"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Lavas_SkullMask"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>Lavas_CambionMask</headwear><bodyPiece>Lavas_Gloamboys_Tailcoat</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Lavas_HarlequinMask</headwear><bodyPiece>Lavas_Harlequin</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Lavas_DevilMask</headwear><bodyPiece>Lavas_DevilTights</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Lavas_SkullMask</headwear><bodyPiece>Lavas_Skeleton_Tights</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

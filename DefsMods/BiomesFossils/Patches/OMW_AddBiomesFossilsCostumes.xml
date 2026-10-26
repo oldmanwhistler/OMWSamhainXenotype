@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="BMT_Apparel_DinoHatCarni"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="BMT_Apparel_DinoHatHerbi"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="BMT_Apparel_DinoHatMascot"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>BMT_Apparel_DinoHatCarni</headwear><bodyPiece>BMT_Apparel_MascotOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>BMT_Apparel_DinoHatHerbi</headwear><bodyPiece>BMT_Apparel_MascotOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>BMT_Apparel_DinoHatMascot</headwear><bodyPiece>BMT_Apparel_MascotOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+    <value>
+      <li><headwear>BMT_Apparel_DinoHatCarni</headwear><bodyPiece>BMT_Apparel_MascotOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>BMT_Apparel_DinoHatHerbi</headwear><bodyPiece>BMT_Apparel_MascotOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>BMT_Apparel_DinoHatMascot</headwear><bodyPiece>BMT_Apparel_MascotOutfit</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>

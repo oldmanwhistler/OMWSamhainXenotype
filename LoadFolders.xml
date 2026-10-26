@@ -11,6 +11,9 @@
     <li IfModActive="VanillaExpanded.VMemesE">DefsMods/VMemesE</li>
     <li IfModActive="VanillaExpanded.VCookE">DefsMods/VCookE</li>
     <li IfModActive="tbmodding.halloweenharvest">DefsMods/HalloweenHarvest</li>
+    <li IfModActive="BiomesTeam.BiomesFossils">DefsMods/BiomesFossils</li>
+    <li IfModActive="Lava.MO.SpookyHalloweenExtravaganza">DefsMods/LavasSpooky</li>
+    <li IfModActive="Hysteria82.MousekinPeasantApparel">DefsMods/LisasPeasantApparel</li>
     <li IfModActive="zal.bananasuit">DefsMods/BananaSuit</li>
     <li IfModActiveAll="zal.bananasuit, Ludeon.RimWorld.Biotech">DefsMods/BananaSuitBiotech</li>
     <li IfModActive="Mlie.DeadpoolsOutfit">DefsMods/DeadpoolsOutfit</li>
