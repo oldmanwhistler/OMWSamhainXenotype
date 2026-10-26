@@ -11,7 +11,7 @@
       <li><headwear>Apparel_SCPinHead</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_SCSkullHead</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_SCScreamHead</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Apparel_SCWitchHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCWitchHead</headwear><bodyPiece>Apparel_WitchesRobe</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_WitchesHat</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_MummyHead</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_WolfmanMask</headwear><defaultEnabled>true</defaultEnabled></li>

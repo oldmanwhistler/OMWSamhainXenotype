@@ -8,6 +8,7 @@ public class SamhainXenotypeSettings : ModSettings
 {
     private List<string> disabledCostumeKeys = new();
     private List<string> enabledCostumeKeys = new();
+    public bool LogCostumeAssignments;
 
     public bool IsCostumeEnabled(SamhainCostumeSet? costume)
     {
@@ -50,6 +51,7 @@ public class SamhainXenotypeSettings : ModSettings
         base.ExposeData();
         Scribe_Collections.Look(ref disabledCostumeKeys, "disabledCostumeKeys", LookMode.Value);
         Scribe_Collections.Look(ref enabledCostumeKeys, "enabledCostumeKeys", LookMode.Value);
+        Scribe_Values.Look(ref LogCostumeAssignments, "logCostumeAssignments", false);
         if (Scribe.mode == LoadSaveMode.PostLoadInit)
         {
             disabledCostumeKeys ??= new List<string>();

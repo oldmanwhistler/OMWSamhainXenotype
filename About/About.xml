@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
-  <name>[OMW] Samhain Xenotype</name>
+  <name>Samhain Xenotype</name>
   <packageId>oldmanwhistler.SamhainXenotype</packageId>
   <author>oldmanwhistler</author>
   <description>Adds the player-selectable Samhain xenotype, optional VME need genes, and an Anomaly sacrifice ritual.</description>

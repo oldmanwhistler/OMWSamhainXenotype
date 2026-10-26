@@ -10,11 +10,11 @@
       <li><headwear>Domi_MorionHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Domi_KettleHat</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Domi_PlateHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Domi_GreatHelm</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Domi_SalletHelmA</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Domi_SalletHelmB</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Domi_SalletHelmC</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Domi_ArmetHelm</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Domi_GreatHelm</headwear><bodyPiece>Domi_KnightArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Domi_SalletHelmA</headwear><bodyPiece>Domi_KnightArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Domi_SalletHelmB</headwear><bodyPiece>Domi_KnightArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Domi_SalletHelmC</headwear><bodyPiece>Domi_KnightArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Domi_ArmetHelm</headwear><bodyPiece>Domi_KnightArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
     </value>
   </Operation>
 </Patch>

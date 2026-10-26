@@ -38,6 +38,13 @@ public static class SamhainCostumeGenerator
         if (samhain == null || __result.genes.Xenotype != samhain)
             return;
 
+        if (HasWornFullHeadApparel(__result, out List<string> fullHeadItems))
+        {
+            if (SamhainXenotypeMod.ActiveSettings?.LogCostumeAssignments == true)
+                Log.Message($"[OMW] Costume pool skipped for {__result.LabelShortCap} ({__result.ThingID}) because it already wears FullHead apparel: {string.Join(", ", fullHeadItems)}.");
+            return;
+        }
+
         SamhainCostumePoolDef? poolDef = DefDatabase<SamhainCostumePoolDef>.GetNamedSilentFail(CostumePoolDefName);
         if (poolDef == null)
             return;
@@ -59,17 +66,44 @@ public static class SamhainCostumeGenerator
             TryWearCostume(__result, selected);
     }
 
+    private static bool HasWornFullHeadApparel(Pawn pawn, out List<string> fullHeadItems)
+    {
+        fullHeadItems = new List<string>();
+        foreach (Apparel apparel in pawn.apparel.WornApparel)
+        {
+            if (apparel.def.apparel?.bodyPartGroups == null)
+                continue;
+
+            foreach (BodyPartGroupDef group in apparel.def.apparel.bodyPartGroups)
+            {
+                if (group.defName != "FullHead")
+                    continue;
+
+                fullHeadItems.Add(apparel.LabelCap.ToString());
+                break;
+            }
+        }
+        return fullHeadItems.Count > 0;
+    }
+
     public static bool TryWearCostume(Pawn pawn, SamhainCostumeSet? costume, bool clearExistingOuterwearAndHeadwear = false)
     {
         if (!CanWearCostume(pawn, costume))
             return false;
 
-        if (clearExistingOuterwearAndHeadwear)
+        SamhainXenotypeSettings? settings = SamhainXenotypeMod.ActiveSettings;
+        bool shouldLog = settings?.LogCostumeAssignments == true;
+        List<Apparel>? wornBefore = shouldLog ? new List<Apparel>(pawn.apparel.WornApparel) : null;
+
+        if (clearExistingOuterwearAndHeadwear && costume!.bodyPiece != null)
             RemoveExistingOuterwearAndHeadwear(pawn);
 
         if (costume!.bodyPiece != null)
             Wear(pawn, costume.bodyPiece);
         Wear(pawn, costume.headwear);
+
+        if (shouldLog)
+            LogCostumeApplication(pawn, costume, wornBefore!);
         return true;
     }
 
@@ -81,13 +115,23 @@ public static class SamhainCostumeGenerator
             return false;
 
         if (costume.bodyPiece == null)
-            return true;
+            return CanWearWithoutReplacingExistingApparel(pawn, costume.headwear);
 
-        return CanWear(pawn, costume.bodyPiece)
+        return CanWear(pawn, costume.bodyPiece, allowNonOuterwearLayers: true)
             && ApparelUtility.CanWearTogether(costume.bodyPiece, costume.headwear, pawn.RaceProps.body);
     }
 
-    private static bool CanWear(Pawn pawn, ThingDef? def)
+    private static bool CanWearWithoutReplacingExistingApparel(Pawn pawn, ThingDef headwear)
+    {
+        foreach (Apparel worn in pawn.apparel.WornApparel)
+        {
+            if (!ApparelUtility.CanWearTogether(headwear, worn.def, pawn.RaceProps.body))
+                return false;
+        }
+        return true;
+    }
+
+    private static bool CanWear(Pawn pawn, ThingDef? def, bool allowNonOuterwearLayers = false)
     {
         if (def?.IsApparel != true
             || !def.apparel.PawnCanWear(pawn, ignoreGender: true)
@@ -95,9 +139,12 @@ public static class SamhainCostumeGenerator
             || def.apparel.layers.NullOrEmpty())
             return false;
 
+        if (allowNonOuterwearLayers)
+            return true;
+
         foreach (ApparelLayerDef layer in def.apparel.layers)
         {
-            if (layer.defName != "Shell" && layer.defName != "Overhead")
+            if (layer.defName != "Shell" && layer.defName != "Overhead" && layer.defName != "StrappedHead")
                 return false;
         }
         return true;
@@ -117,6 +164,36 @@ public static class SamhainCostumeGenerator
         }
     }
 
+    private static void LogCostumeApplication(Pawn pawn, SamhainCostumeSet costume, List<Apparel> wornBefore)
+    {
+        List<string> removed = new();
+        foreach (Apparel apparel in wornBefore)
+        {
+            if (!pawn.apparel.WornApparel.Contains(apparel))
+                removed.Add(apparel.LabelCap.ToString());
+        }
+
+        List<string> added = new();
+        AddIfWorn(added, pawn, costume.bodyPiece);
+        AddIfWorn(added, pawn, costume.headwear);
+        Log.Message($"[OMW] Costume applied to {pawn.LabelShortCap} ({pawn.ThingID}): removed [{(removed.Count == 0 ? "none" : string.Join(", ", removed))}]; added/replaced with [{(added.Count == 0 ? "none" : string.Join(", ", added))}].");
+    }
+
+    private static void AddIfWorn(List<string> added, Pawn pawn, ThingDef? def)
+    {
+        if (def == null)
+            return;
+
+        foreach (Apparel apparel in pawn.apparel.WornApparel)
+        {
+            if (apparel.def == def)
+            {
+                added.Add(apparel.LabelCap.ToString());
+                return;
+            }
+        }
+    }
+
     private static bool HasOnlyOuterwearOrHeadwearLayers(ThingDef def)
     {
         if (def.apparel?.layers.NullOrEmpty() != false)
@@ -124,7 +201,7 @@ public static class SamhainCostumeGenerator
 
         foreach (ApparelLayerDef layer in def.apparel.layers)
         {
-            if (layer.defName != "Shell" && layer.defName != "Overhead")
+            if (layer.defName != "Shell" && layer.defName != "Overhead" && layer.defName != "StrappedHead")
                 return false;
         }
         return true;

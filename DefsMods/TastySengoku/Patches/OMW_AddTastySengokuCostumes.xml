@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
-      <li><headwear>TA_Kabuto</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_Kabuto</headwear><bodyPiece>TA_SamuraiHarness</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_Jingasa</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_RattanHat</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_RattanHat_sandogasa</headwear><defaultEnabled>true</defaultEnabled></li>

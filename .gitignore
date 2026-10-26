@@ -1,3 +1,5 @@
 /.atlas
 /ArtSources
 /Assemblies
+Source/obj
+Source/obj/Debug

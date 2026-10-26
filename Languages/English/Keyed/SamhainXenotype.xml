@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <OMW_SamhainSettingsCategory>Samhain Xenotype</OMW_SamhainSettingsCategory>
+  <OMW_SettingsTabCostumes>Costumes</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabLogging>Logging</OMW_SettingsTabLogging>
+  <OMW_LogCostumeAssignments>Log costume assignment details</OMW_LogCostumeAssignments>
+  <OMW_LogCostumeAssignmentsDescription>When enabled, write a message to Player.log whenever a costume is applied, including apparel removed and the items added or replacing it.</OMW_LogCostumeAssignmentsDescription>
   <OMW_CostumePoolUnavailable>No costume pool is available for the active mods.</OMW_CostumePoolUnavailable>
   <OMW_NoSupportedCostumes>No supported costumes are available.</OMW_NoSupportedCostumes>
   <OMW_CostumeHeadwearLine>Headwear: {0} — {1}</OMW_CostumeHeadwearLine>

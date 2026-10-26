@@ -13,7 +13,7 @@
       <li><headwear>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>DankPyon_Headgear_KlappvisorBascinet</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>DankPyon_Headgear_HounskullHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm1c</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm1c</headwear><bodyPiece>DankPyon_Apparel_Heraldic_Hauberk1c</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>DankPyon_Headgear_GreatHelm</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>DankPyon_Headgear_Armet</headwear><defaultEnabled>true</defaultEnabled></li>
     </value>

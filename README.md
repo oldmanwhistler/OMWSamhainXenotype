@@ -18,9 +18,7 @@ Inspired by [Sam: The Soul of Halloween](https://samthesoulofhalloween.com/) cre
 
 ## Samhain Are Just Fun Little Guys
 
-They definitely aren't child-sized murder demons. GIF from Sam's website.
-
-![SamCarving.gif](https://samthesoulofhalloween.com/images/globals/dancers/samLoop-carving-02.gif)
+They definitely aren't child-sized murder demons.
 
 ## Minimum Requirements
 
@@ -42,24 +40,6 @@ These aren't required but they unlock additional content.
 - C# for the anomaly physic ritual and to expose needs from VME/VCE
 - C# to add custom parts for the scenario
 
-### Adding costumes
-
-The Samhain spawn in costumes (because of course they do). Adding costumes is a simple XML patch. I included support for a variety of costumes, but you can request specific ones in the comments.
-
-```xml
-<Operation Class="PatchOperationAdd">
-  <xpath>/Defs/SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
-  <value>
-    <li>
-      <apparel>
-        <li>YourCostumeBody</li>
-        <li>YourCostumeHeadwear</li>
-      </apparel>
-    </li>
-  </value>
-</Operation>
-```
-
 ## Language Support
 
 - English
@@ -71,10 +51,6 @@ The Samhain spawn in costumes (because of course they do). Adding costumes is a 
 - [GitHub](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume)
 - [AI Disclosure](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume/blob/main/Docs/AI.md)
 - [MIT License](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume/blob/main/LICENSE)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/oldmanwhistler/OMWStoragebornXenotype/blob/main/LICENSE) for details.
 
 ## DISCLAIMER
 

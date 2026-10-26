@@ -3,13 +3,13 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
-      <li><headwear>TA_CumanNasal</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_HelmetAventailLamellar</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_HelmetAventailBrigandine</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_HelmetFaceClosed</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_HelmetFaceOpen</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_IronPagodaClosed</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_IronPagodaOpen</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_CumanNasal</headwear><bodyPiece>TA_IronDeghl</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_HelmetAventailLamellar</headwear><bodyPiece>TA_LamellarArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_HelmetAventailBrigandine</headwear><bodyPiece>TA_IronDeghl</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_HelmetFaceClosed</headwear><bodyPiece>TA_IronDeghl</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_HelmetFaceOpen</headwear><bodyPiece>TA_IronDeghl</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_IronPagodaClosed</headwear><bodyPiece>TA_IronDeghl</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_IronPagodaOpen</headwear><bodyPiece>TA_IronDeghl</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_WarriorFurCap</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_NobleHat</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_NomadFurHat</headwear><defaultEnabled>true</defaultEnabled></li>

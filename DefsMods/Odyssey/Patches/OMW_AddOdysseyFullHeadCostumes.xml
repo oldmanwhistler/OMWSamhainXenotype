@@ -3,13 +3,13 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
-      <li><headwear>Apparel_VacsuitHelmet</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_VacsuitHelmet</headwear><bodyPiece>Apparel_Vacsuit</bodyPiece><defaultEnabled>false</defaultEnabled></li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
     <value>
-      <li><headwear>Apparel_VacsuitHelmet</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_VacsuitHelmet</headwear><bodyPiece>Apparel_VacsuitChildren</bodyPiece><defaultEnabled>false</defaultEnabled></li>
     </value>
   </Operation>
 </Patch>

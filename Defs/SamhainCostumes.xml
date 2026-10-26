@@ -5,8 +5,8 @@
     <adultCostumes>
       <li><headwear>Apparel_WarMask</headwear><bodyPiece>Apparel_Robe</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_WarVeil</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Apparel_PowerArmorHelmet</headwear><defaultEnabled>false</defaultEnabled></li>
-      <li><headwear>Apparel_ArmorHelmetRecon</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_PowerArmorHelmet</headwear><bodyPiece>Apparel_PowerArmor</bodyPiece><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorHelmetRecon</headwear><bodyPiece>Apparel_ArmorRecon</bodyPiece><defaultEnabled>false</defaultEnabled></li>
     </adultCostumes>
     <childCostumes>
       <li><headwear>Apparel_WarVeil</headwear><bodyPiece>Apparel_KidParka</bodyPiece><defaultEnabled>true</defaultEnabled></li>

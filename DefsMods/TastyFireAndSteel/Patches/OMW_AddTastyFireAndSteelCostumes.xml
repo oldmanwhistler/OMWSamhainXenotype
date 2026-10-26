@@ -3,13 +3,10 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
-      <li><headwear>TA_Burgonet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_BurgonetVisored_off</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_LobstertailHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_HussarHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_SipahiHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_CavalryHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>TA_CloseHelmet_off</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_Burgonet</headwear><bodyPiece>TA_ThreeQuartersPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_BurgonetVisored_off</headwear><bodyPiece>TA_ThreeQuartersPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_CavalryHelmet</headwear><bodyPiece>TA_Yushman</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>TA_CloseHelmet_off</headwear><bodyPiece>TA_ThreeQuartersPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_PikemanHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_HatCavalier</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>TA_MusketeerHat</headwear><defaultEnabled>true</defaultEnabled></li>

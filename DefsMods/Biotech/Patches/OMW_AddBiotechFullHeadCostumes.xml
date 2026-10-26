@@ -4,8 +4,8 @@
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
       <li><headwear>Apparel_GasMask</headwear></li>
-      <li><headwear>Apparel_ArmorHelmetMechCommander</headwear><defaultEnabled>false</defaultEnabled></li>
-      <li><headwear>Apparel_ArmorHelmetMechlordHelmet</headwear><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorHelmetMechCommander</headwear><bodyPiece>Apparel_MechlordSuit</bodyPiece><defaultEnabled>false</defaultEnabled></li>
+      <li><headwear>Apparel_ArmorHelmetMechlordHelmet</headwear><bodyPiece>Apparel_MechlordSuit</bodyPiece><defaultEnabled>false</defaultEnabled></li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
