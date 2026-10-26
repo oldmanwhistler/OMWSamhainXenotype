@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj": {}
+    "C:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj": {
+    "C:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj",
+        "projectUniqueName": "C:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj",
         "projectName": "SamhainXenotype",
-        "projectPath": "c:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj",
+        "projectPath": "C:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj",
         "packagesPath": "C:\\Users\\Jason.2020.11\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\obj\\",
+        "outputPath": "C:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jason.2020.11\\AppData\\Roaming\\NuGet\\NuGet.Config",

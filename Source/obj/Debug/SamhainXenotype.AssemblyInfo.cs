@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SamhainXenotype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+459f82bc4e66120d17b8a3f41f07b63a5d8d140e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SamhainXenotype")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SamhainXenotype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

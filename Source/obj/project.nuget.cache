@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NyjYtAArtDs=",
+  "dgSpecHash": "l4Hf2QXUMm0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj",
+  "projectFilePath": "C:\\Users\\Jason.2020.11\\Atlas\\data\\profile\\workspace\\Mods\\9cedbfd03a7b\\Source\\SamhainXenotype.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jason.2020.11\\.nuget\\packages\\lib.harmony\\3.0.0-rc.3\\lib.harmony.3.0.0-rc.3.nupkg.sha512"
   ],
