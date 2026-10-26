@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_WitchesHat"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_MummyHead"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_WolfmanMask"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Apparel_SCDevilHead"]/apparel/bodyPartGroups</xpath>
+    <value><bodyPartGroups><li>FullHead</li></bodyPartGroups></value>
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotype.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
@@ -12,9 +28,10 @@
       <li><headwear>Apparel_SCSkullHead</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_SCScreamHead</headwear><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_SCWitchHead</headwear><bodyPiece>Apparel_WitchesRobe</bodyPiece><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Apparel_WitchesHat</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>Apparel_MummyHead</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_WitchesHat</headwear><bodyPiece>Apparel_WitchesRobe</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_MummyHead</headwear><bodyPiece>Apparel_MummyWraps</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>Apparel_WolfmanMask</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>Apparel_SCDevilHead</headwear><defaultEnabled>true</defaultEnabled></li>
     </value>
   </Operation>
 </Patch>
