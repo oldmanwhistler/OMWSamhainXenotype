@@ -42,6 +42,12 @@ Samhain Xenotype contains patches for several mods to add them to the costume po
 
 ![Lava's Spooky Halloween](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/Costumes/LavasSpookyHalloweenExtravaganza.png)
 
+[Turtleshroom's Pan-Halloweenie Integration 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3593434506)
+
+![Turtleshroom's Halloweenie Integration](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/Costumes/Halloweenie1.png)
+![Turtleshroom's Halloweenie Integration](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/Costumes/Halloweenie2.png)
+![Turtleshroom's Halloweenie Integration](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/Costumes/Halloweenie3.png)
+
 ## Medieval Mods
 
 [Lisa's Peasant Apparel](https://steamcommunity.com/sharedfiles/filedetails/?id=3793374806)
