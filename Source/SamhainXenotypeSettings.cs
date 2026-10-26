@@ -41,6 +41,12 @@ public class SamhainXenotypeSettings : ModSettings
         }
     }
 
+    public void ResetCostumeChoices()
+    {
+        disabledCostumeKeys.Clear();
+        enabledCostumeKeys.Clear();
+    }
+
     public static string CostumeKey(SamhainCostumeSet costume)
     {
         return (costume.headwear?.defName ?? string.Empty) + "|" + (costume.bodyPiece?.defName ?? string.Empty);

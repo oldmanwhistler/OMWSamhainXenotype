@@ -1,3 +1,4 @@
+using RimWorld;
 using UnityEngine;
 using Verse;
 
@@ -38,7 +39,29 @@ public class SamhainXenotypeMod : Mod
 
         Rect contents = new(inRect.x, inRect.y + tabHeight + 6f, inRect.width, inRect.height - tabHeight - 6f);
         if (selectedSettingsTab == 0)
-            SamhainCostumeSettingsPage.Draw(contents, Settings, ref settingsScrollPosition, WriteSettings);
+        {
+            const float buttonHeight = 34f;
+            const float footerGap = 8f;
+            Rect costumeList = new(contents.x, contents.y, contents.width, contents.height - buttonHeight - footerGap);
+            SamhainCostumeSettingsPage.Draw(costumeList, Settings, ref settingsScrollPosition, WriteSettings);
+
+            Rect footer = new(contents.x, contents.yMax - buttonHeight, contents.width, buttonHeight);
+            float buttonWidth = 120f;
+            Rect saveButton = new(footer.x, footer.y, buttonWidth, buttonHeight);
+            Rect resetButton = new(footer.x + buttonWidth + 8f, footer.y, buttonWidth, buttonHeight);
+            if (Widgets.ButtonText(saveButton, "OMW_CostumeSettingsSave".Translate()))
+            {
+                WriteSettings();
+                Messages.Message("OMW_CostumeSettingsSaved".Translate(), MessageTypeDefOf.PositiveEvent, historical: false);
+            }
+            if (Widgets.ButtonText(resetButton, "OMW_CostumeSettingsReset".Translate()))
+            {
+                Settings.ResetCostumeChoices();
+                WriteSettings();
+                settingsScrollPosition = Vector2.zero;
+                Messages.Message("OMW_CostumeSettingsResetDone".Translate(), MessageTypeDefOf.PositiveEvent, historical: false);
+            }
+        }
         else
             DrawLoggingSettings(contents);
     }
@@ -51,6 +74,7 @@ public class SamhainXenotypeMod : Mod
         {
             Settings.LogCostumeAssignments = enabled;
             WriteSettings();
+            Log.Message($"[OMW] Costume assignment logging {(enabled ? "enabled" : "disabled")}.");
         }
         Widgets.Label(new Rect(inRect.x, inRect.y + 36f, inRect.width, 44f), "OMW_LogCostumeAssignmentsDescription".Translate());
     }

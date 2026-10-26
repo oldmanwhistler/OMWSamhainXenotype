@@ -38,16 +38,22 @@ public static class SamhainCostumeGenerator
         if (samhain == null || __result.genes.Xenotype != samhain)
             return;
 
+        SamhainXenotypeSettings? settings = SamhainXenotypeMod.ActiveSettings;
+        bool shouldLog = settings?.LogCostumeAssignments == true;
+
         if (HasWornFullHeadApparel(__result, out List<string> fullHeadItems))
         {
-            if (SamhainXenotypeMod.ActiveSettings?.LogCostumeAssignments == true)
+            if (shouldLog)
                 Log.Message($"[OMW] Costume pool skipped for {__result.LabelShortCap} ({__result.ThingID}) because it already wears FullHead apparel: {string.Join(", ", fullHeadItems)}.");
             return;
         }
 
         SamhainCostumePoolDef? poolDef = DefDatabase<SamhainCostumePoolDef>.GetNamedSilentFail(CostumePoolDefName);
         if (poolDef == null)
+        {
+            Log.Message($"[OMW] ERROR: No Samhain costume pool Def named {CostumePoolDefName} is loaded; cannot assign a costume to {__result.LabelShortCap} ({__result.ThingID}).");
             return;
+        }
 
         List<SamhainCostumeSet> pool = __result.DevelopmentalStage == DevelopmentalStage.Child
             ? poolDef.childCostumes
@@ -62,8 +68,20 @@ public static class SamhainCostumeGenerator
                 available.Add(costume!);
         }
 
+        if (shouldLog)
+            Log.Message($"[OMW] Costume pool evaluated for {__result.LabelShortCap} ({__result.ThingID}): {available.Count} valid/enabled entries out of {pool.Count} for {__result.DevelopmentalStage}.");
+
+        if (available.Count == 0)
+        {
+            Log.Message($"[OMW] ERROR: No valid Samhain costume entries for {__result.LabelShortCap} ({__result.ThingID}) at {__result.DevelopmentalStage}; the stage pool is empty, all entries are disabled, or none can be worn.");
+            return;
+        }
+
         if (available.TryRandomElement(out SamhainCostumeSet selected))
-            TryWearCostume(__result, selected);
+        {
+            if (!TryWearCostume(__result, selected))
+                Log.Message($"[OMW] ERROR: Selected Samhain costume {selected.headwear?.defName ?? "<null>"} could not be applied to {__result.LabelShortCap} ({__result.ThingID}).");
+        }
     }
 
     private static bool HasWornFullHeadApparel(Pawn pawn, out List<string> fullHeadItems)
