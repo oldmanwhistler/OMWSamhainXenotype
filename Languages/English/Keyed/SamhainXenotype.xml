@@ -3,6 +3,10 @@
   <OMW_SamhainSettingsCategory>Samhain Xenotype</OMW_SamhainSettingsCategory>
   <OMW_SettingsTabCostumes>Costumes</OMW_SettingsTabCostumes>
   <OMW_SettingsTabLogging>Logging</OMW_SettingsTabLogging>
+  <OMW_CostumeSettingsSave>Save</OMW_CostumeSettingsSave>
+  <OMW_CostumeSettingsReset>Reset</OMW_CostumeSettingsReset>
+  <OMW_CostumeSettingsSaved>Costume settings saved.</OMW_CostumeSettingsSaved>
+  <OMW_CostumeSettingsResetDone>Costume choices reset to their defaults.</OMW_CostumeSettingsResetDone>
   <OMW_LogCostumeAssignments>Log costume assignment details</OMW_LogCostumeAssignments>
   <OMW_LogCostumeAssignmentsDescription>When enabled, write a message to Player.log whenever a costume is applied, including apparel removed and the items added or replacing it.</OMW_LogCostumeAssignmentsDescription>
   <OMW_CostumePoolUnavailable>No costume pool is available for the active mods.</OMW_CostumePoolUnavailable>

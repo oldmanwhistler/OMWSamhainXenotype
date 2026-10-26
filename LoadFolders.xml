@@ -4,18 +4,16 @@
     <li>/</li>
     <li IfModActive="Ludeon.RimWorld.Anomaly">DefsMods/Anomaly</li>
     <li IfModActive="Ludeon.RimWorld.Ideology">DefsMods/Ideology</li>
-    <li IfModActive="VanillaExpanded.VIEHAR">DefsMods/VIEHatsRags</li>
     <li IfModActive="Ludeon.RimWorld.Biotech">DefsMods/Biotech</li>
     <li IfModActive="Ludeon.RimWorld.Royalty">DefsMods/Royalty</li>
     <li IfModActive="Ludeon.RimWorld.Odyssey">DefsMods/Odyssey</li>
     <li IfModActive="VanillaExpanded.VMemesE">DefsMods/VMemesE</li>
     <li IfModActive="VanillaExpanded.VCookE">DefsMods/VCookE</li>
-    <li IfModActive="tbmodding.halloweenharvest">DefsMods/HalloweenHarvest</li>
+    <li IfModActive="VanillaExpanded.VIEHAR">DefsMods/VIEHatsRags</li>
+    <li IfModActive="oldmanwhistler.OMWSamTrickRTreatCostume">DefsMods/OMWSamTrickRTreatCostume</li>
     <li IfModActive="BiomesTeam.BiomesFossils">DefsMods/BiomesFossils</li>
     <li IfModActive="Lava.MO.SpookyHalloweenExtravaganza">DefsMods/LavasSpooky</li>
     <li IfModActive="Hysteria82.MousekinPeasantApparel">DefsMods/LisasPeasantApparel</li>
-    <li IfModActive="zal.bananasuit">DefsMods/BananaSuit</li>
-    <li IfModActiveAll="zal.bananasuit, Ludeon.RimWorld.Biotech">DefsMods/BananaSuitBiotech</li>
     <li IfModActive="Mlie.DeadpoolsOutfit">DefsMods/DeadpoolsOutfit</li>
     <li IfModActive="zal.clownmod">DefsMods/ClownMod</li>
     <li IfModActive="Kilo.PlagueDoc">DefsMods/PlagueDoctor</li>
