@@ -29,7 +29,7 @@ They definitely aren't child-sized murder demons.
 These aren't required but they unlock additional content.
 
 - [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380) - adds costumes to the starting scenario
-- COMING SOON: [OMW] Samhain Xenotype - Hidden and Hungry -- adds additional functionality
+- COMING SOON: Samhain Xenotype - Hungry and Hidden Add-on
 
 ## Recommended
 

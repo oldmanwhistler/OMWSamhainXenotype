@@ -56,7 +56,7 @@
     <li>AptitudePoor_Artistic</li>
     <li>AptitudeTerrible_Social</li>
     <li>AptitudeTerrible_Intellectual</li>
-    <!-- prevent random genes from messing with it -->
+    <!-- prevent random genes from messing with the look -->
     <li>Ears_Human</li>
     <li>Hands_Human</li>
     <li>Hair_BaldOnly</li>

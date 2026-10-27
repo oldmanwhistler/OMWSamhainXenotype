@@ -9,7 +9,7 @@
 	<GeneDef>
 		<defName>OMW_Samhain</defName>
         <label>Samhain</label>
-		<description>The Samhain are sometimes mistaken for children. They have a love for chocolate and sweets.</description>
+		<description>Small in stature and possessing a child-like frame, the Samhain xenotype hides their faces behind mysterious masks while harbouring a dark propensity for combat with blades over firearms. Driven by an insatiable sweet tooth, these secretive humanoids possess an intense fondness for chocolate, often seeking it out as a rare comfort amid the rim's harsh realities.</description>
 		<iconPath>UI/Genes/OMW_Samhain</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
@@ -56,27 +56,27 @@
         </statOffsets>            
 	</GeneDef>
 
+<!-- Added this gene to the Samhain xenotype so that players can add/remove the HH Add-on during a save -->
   <GeneDef>
     <defName>OMW_Samhain_Costumed</defName>
     <label>costumed</label>
     <labelShortAdj>costumed</labelShortAdj>
-    <description>Xenotypes with this gene have a tendency to wear costumes to hide their true nature.</description>
+    <description>Carriers of this gene feel an intense psychological need to conceal their faces, deriving comfort and confidence from wearing headwear, masks, or full-face coverings. Uncovering their faces leaves them deeply unsettled.</description>
     <iconPath>UI/Genes/OMW_Costumed</iconPath>
 	<displayCategory>OMW_Samhain</displayCategory>    
     <biostatCpx>0</biostatCpx>
-    <enablesNeeds><li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li></enablesNeeds>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
   </GeneDef>    
 
+<!-- Added this gene to the Samhain xenotype so that players can add/remove the HH Add-on during a save -->
   <GeneDef>
     <defName>OMW_Samhain_SweetTooth</defName>
     <label>sweet tooth</label>
     <labelShortAdj>sweet-toothed</labelShortAdj>
-    <description>Xenotypes with this gene have a need for desserts.</description>
+    <description>Carriers of this gene possess a hyper-specialized metabolic craving for highly processed sugars, deriving immense satisfaction and mood boosts from consuming chocolate and other sweets. While they suffer no physical harm from a standard diet, denying their persistent sugar cravings leaves them irritable and prone to minor mental breaks.</description>
     <iconPath>UI/Genes/OMW_SweetTooth</iconPath>
 	  <displayCategory>OMW_Samhain</displayCategory>    
     <biostatCpx>0</biostatCpx>
-    <enablesNeeds><li MayRequire="VanillaExpanded.VCookE">VME_Desserts</li></enablesNeeds>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
   </GeneDef>
 </Defs>
