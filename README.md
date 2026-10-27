@@ -1,6 +1,6 @@
 # Samhain Xenotype
 
-Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights. 
+Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
 
 ## What You Get
 
@@ -8,9 +8,7 @@ Small creepy nighttime xenotype perfect for carving raiders on warm Septober nig
 - Gene: Samhain.
 - Gene: Sweet Tooth which enables dessert need.
 - Gene: Costumed which enables anonymity need.
-- Costumes: Samhain joiners wear costumes.
-- Psychic Ritual: Blood and Chocolate which will summon a Samhain to join your colony.
-- Scenario: Three Samhain chasing down an Ancient who doesn't celebrate the Septober harvest!
+- Scenario: Three Samhain 
 
 ## Inspiration
 
@@ -20,7 +18,7 @@ Inspired by [Sam: The Soul of Halloween](https://samthesoulofhalloween.com/) cre
 
 They definitely aren't child-sized murder demons.
 
-## Minimum Requirements
+## Requirements
 
 - Biotech DLC
 - [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502)
@@ -30,15 +28,16 @@ They definitely aren't child-sized murder demons.
 
 These aren't required but they unlock additional content.
 
-- Anomaly DLC (for Blood and Chocolate ritual)
-- [Vanilla Memes Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500) (for Anonymous need with Costumed gene)
-- [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519) (for Dessert need with Sweet Tooth gene)
+- [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380) - adds costumes to the starting scenario
+- COMING SOON: [OMW] Samhain Xenotype - Hidden and Hungry -- adds additional functionality
+
+## Recommended
+
+- [Automatic Nightowl](https://steamcommunity.com/sharedfiles/filedetails/?id=2056012179) - Samhain all have the night owl trait.
 
 ## Technical Details
 
 - Xenotype is XML-only by combining genes from Alpha Genes + Big and Small
-- C# for the anomaly physic ritual and to expose needs from VME/VCE
-- C# to add custom parts for the scenario
 
 ## Language Support
 

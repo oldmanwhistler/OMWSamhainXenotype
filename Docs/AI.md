@@ -5,10 +5,10 @@ This is a free mod with an AI disclosure so you can easily avoid it if that is y
 ## How AI was used
 
 - [Atlas](https://github.com/lordfelixmotosr/atlas)
-  - Scaffolding, interface to LLM, publishing, testing
+  - scaffolding, publishing, testing, machine translation
 - GTP-6 Luna
-  - coding
-  - 4 icons
+  - 3 gene icons
+  - 1 xenotype icon
 
 ## Anti-AI
 

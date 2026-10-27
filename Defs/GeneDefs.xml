@@ -9,7 +9,7 @@
 	<GeneDef>
 		<defName>OMW_Samhain</defName>
         <label>Samhain</label>
-		<description>The Samhain are mysterious beings that can be summoned by blood and chocolate.</description>
+		<description>The Samhain are sometimes mistaken for children. They have a love for chocolate and sweets.</description>
 		<iconPath>UI/Genes/OMW_Samhain</iconPath>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
@@ -50,9 +50,33 @@
             <PsychicSensitivity>1.15</PsychicSensitivity>
         </statFactors>
         <statOffsets>
-            <ComfyTemperatureMin>-60</ComfyTemperatureMin>
-            <ComfyTemperatureMax>30</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+            <ComfyTemperatureMax>20</ComfyTemperatureMax>
             <ToxicResistance>1</ToxicResistance>
         </statOffsets>            
 	</GeneDef>
+
+  <GeneDef>
+    <defName>OMW_Samhain_Costumed</defName>
+    <label>costumed</label>
+    <labelShortAdj>costumed</labelShortAdj>
+    <description>Xenotypes with this gene have a tendency to wear costumes to hide their true nature.</description>
+    <iconPath>UI/Genes/OMW_Costumed</iconPath>
+	<displayCategory>OMW_Samhain</displayCategory>    
+    <biostatCpx>0</biostatCpx>
+    <enablesNeeds><li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li></enablesNeeds>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+  </GeneDef>    
+
+  <GeneDef>
+    <defName>OMW_Samhain_SweetTooth</defName>
+    <label>sweet tooth</label>
+    <labelShortAdj>sweet-toothed</labelShortAdj>
+    <description>Xenotypes with this gene have a need for desserts.</description>
+    <iconPath>UI/Genes/OMW_SweetTooth</iconPath>
+	  <displayCategory>OMW_Samhain</displayCategory>    
+    <biostatCpx>0</biostatCpx>
+    <enablesNeeds><li MayRequire="VanillaExpanded.VCookE">VME_Desserts</li></enablesNeeds>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+  </GeneDef>
 </Defs>

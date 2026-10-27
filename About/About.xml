@@ -5,6 +5,7 @@
   <author>oldmanwhistler</author>
   <description>Adds the player-selectable Samhain xenotype, optional VME need genes, and an Anomaly sacrifice ritual.</description>
   <supportedVersions>
+    <li>1.6</li>  
     <li>1.7</li>
   </supportedVersions>
   <modDependencies>
@@ -13,6 +14,10 @@
       <displayName>Harmony</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>RimWorld Biotech DLC</displayName>
+    </li>   
     <li>
       <packageId>RedMattis.BigSmall.Core</packageId>
       <displayName>Big and Small - Genes &amp; More</displayName>
@@ -26,11 +31,6 @@
     <li>brrainz.harmony</li>
     <li>RedMattis.BigSmall.Core</li>
     <li>sarg.alphagenes</li>
-    <li>vanillaexpanded.vmemese</li>
-    <li>vanillaexpanded.vcooke</li>
-    <li>BiomesTeam.BiomesFossils</li>
-    <li>Lava.MO.SpookyHalloweenExtravaganza</li>
-    <li>Hysteria82.MousekinPeasantApparel</li>
     <li>oldmanwhistler.OMWSamTrickRTreatCostume</li>
   </loadAfter>    
 </ModMetaData>

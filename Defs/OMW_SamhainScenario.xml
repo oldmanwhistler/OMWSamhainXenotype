@@ -33,14 +33,10 @@
           <visible>false</visible>
           <method>DropPods</method>
         </li>
-        <li Class="SamhainXenotype.ScenPart_SamhainScenarioSetup">
-          <def>OMW_SamhainScenarioSetup</def>
-          <visible>false</visible>
-        </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>MeleeWeapon_Knife</thingDef>
-          <stuff>Steel</stuff>
+          <stuff>Obsidian</stuff>
           <count>3</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
