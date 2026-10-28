@@ -1,6 +1,6 @@
 # Samhain Xenotype
 
-Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
+EN: Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
 
 ## What You Get
 
@@ -14,6 +14,8 @@ Inspired by [Sam: The Soul of Halloween](https://samthesoulofhalloween.com/) cre
 
 ## Samhain Are Just Fun Little Guys
 
+![Lil Guys](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/pawns.png)
+
 They definitely aren't child-sized murder demons.
 
 - Psychopath, Night Owl, and Brawler traits; pain factor 0%, melee cooldown 0.75×, psychic sensitivity 1.15×, comfortable temperatures to −40°C to 20°C, Toxic Resistance.
@@ -22,9 +24,31 @@ They definitely aren't child-sized murder demons.
 - **Big and Small:** small frame, toughness, feeding frenzy, slow aging, unliving/no-blood and carnivore traits, darkness-related combat and healing, soul-power genes.
 - **Alpha Genes:** tar blood, invisibility, darkness-linked fertility, gaunt/cancerous appearance.
 
-Q: That seems overpowered?
+I was aiming for that horror movie supernatural killer vibe.
 
-A: Part of the balance is the Anonimity and Dessert needs, but those are handled by an optional mod add-on because they require Ideology, VE Memes and Structures, and VE Cooking.
+### Gene Details
+
+![Genes 1](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/genes1.png)
+
+![Genes 2](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/genes2.png)
+
+### Custom Genes for Samhain Xenotype
+
+![Brawler](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/brawler.png)
+
+![Psychopath](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/psychopath.png)
+
+![Samhain](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/samhain.png)
+
+![Sweet Tooth](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/sweet_tooth.png)
+
+![Costumed](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/costumed.png)
+
+The Anonimity and Dessert needs are added by an optional mod add-on because they require Ideology, VE Memes and Structures, and VE Cooking.
+
+### Scenario
+
+![Scenario Description](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/scenario2.png)
 
 ## Requirements
 
@@ -49,6 +73,7 @@ Samhain are much better at melee than shooting so use [Tweaks Galore](https://st
 ## Technical Details
 
 - This Xenotype mod is XML-only by combining genes from Alpha Genes + Big and Small.
+- Tested with 300 mods.
 
 ## Language Support
 
@@ -65,3 +90,5 @@ Samhain are much better at melee than shooting so use [Tweaks Galore](https://st
 ## DISCLAIMER
 
 This is an unofficial, non-commercial fan work, not affiliated with, endorsed by, or sponsored by Michael Dougherty or Sam: The Soul of Halloween. It does not include any assets or intellectual propery from Michael Dougherty, Trick 'R Treat, etc.
+
+keywords: halloween, trick or treat, darkness, night, candy, horror, serial killer
