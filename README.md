@@ -44,7 +44,7 @@ I was aiming for that horror movie supernatural killer vibe.
 
 ![Costumed](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/costumed.png)
 
-The Anonimity and Dessert needs are added by an optional mod add-on because they require Ideology, VE Memes and Structures, and VE Cooking.
+The Anonymity and Dessert needs are added by an optional mod add-on because they require Ideology, VE Memes and Structures, and VE Cooking.
 
 ### Scenario
 
