@@ -6,44 +6,25 @@
         <displayPriorityInXenotype>1</displayPriorityInXenotype>
     </GeneCategoryDef>
 
-	<GeneDef>
-		<defName>OMW_Samhain</defName>
+    <GeneDef>
+        <defName>OMW_Samhain</defName>
         <label>Samhain</label>
-		<description>Small in stature and possessing a child-like frame, the Samhain xenotype hides their faces behind mysterious masks while harbouring a dark propensity for combat with blades over firearms. Driven by an insatiable sweet tooth, these secretive humanoids possess an intense fondness for chocolate, often seeking it out as a rare comfort amid the rim's harsh realities.</description>
-		<iconPath>UI/Genes/OMW_Samhain</iconPath>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>1</biostatMet>
-		<displayCategory>OMW_Samhain</displayCategory>
-		<selectionWeight>0</selectionWeight>
-		<descriptionHyperlinks>
-			<HediffDef>OMW_PseudoDeadlife</HediffDef>
-		</descriptionHyperlinks>
-		<missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
-		<modExtensions>
-			<li Class="VEF.Genes.GeneExtension">
-				<hediffToWholeBody>OMW_PseudoDeadlife</hediffToWholeBody>
-			</li>
-		</modExtensions>
-    	<canGenerateInGeneSet>false</canGenerateInGeneSet>		
-        <suppressedTraits>
-            <li>
-            <def>Kind</def>
+        <description>Small in stature and possessing a child-like frame, the Samhain xenotype hides their faces behind mysterious masks while harbouring a dark propensity for combat with blades over firearms. Driven by an insatiable sweet tooth, these secretive humanoids possess an intense fondness for chocolate, often seeking it out as a rare comfort amid the rim's harsh realities.</description>
+        <iconPath>UI/Genes/OMW_Samhain</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <displayCategory>OMW_Samhain</displayCategory>
+        <selectionWeight>0</selectionWeight>
+        <descriptionHyperlinks>
+            <HediffDef>OMW_PseudoDeadlife</HediffDef>
+        </descriptionHyperlinks>
+        <missingGeneRomanceChanceFactor>0</missingGeneRomanceChanceFactor>
+        <modExtensions>
+            <li Class="VEF.Genes.GeneExtension">
+                <hediffToWholeBody>OMW_PseudoDeadlife</hediffToWholeBody>
             </li>
-        </suppressedTraits>    
-        <forcedTraits>
-            <li>
-                <def>Psychopath</def>
-                <degree>0</degree>
-            </li>
-            <li>
-                <def>NightOwl</def>
-                <degree>0</degree>
-            </li>
-        </forcedTraits>
-        <exclusionTags>
-            <li>KindInstinct</li>
-            <li>ViolenceDisabled</li>
-        </exclusionTags>    
+        </modExtensions>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <painFactor>0</painFactor>
         <statFactors>
             <MeleeCooldownFactor>0.75</MeleeCooldownFactor>
@@ -53,30 +34,67 @@
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>20</ComfyTemperatureMax>
             <ToxicResistance>1</ToxicResistance>
-        </statOffsets>            
-	</GeneDef>
+        </statOffsets>
+    </GeneDef>
 
-<!-- Added this gene to the Samhain xenotype so that players can add/remove the HH Add-on during a save -->
-  <GeneDef>
-    <defName>OMW_Samhain_Costumed</defName>
-    <label>costumed</label>
-    <labelShortAdj>costumed</labelShortAdj>
-    <description>Carriers of this gene feel an intense psychological need to conceal their faces, deriving comfort and confidence from wearing headwear, masks, or full-face coverings. Uncovering their faces leaves them deeply unsettled.</description>
-    <iconPath>UI/Genes/OMW_Costumed</iconPath>
-	<displayCategory>OMW_Samhain</displayCategory>    
-    <biostatCpx>0</biostatCpx>
-    <canGenerateInGeneSet>false</canGenerateInGeneSet>
-  </GeneDef>    
+    <GeneDef>
+        <defName>OMW_Samhain_Psychopath</defName>
+        <label>psychopath</label>
+        <labelShortAdj>psychopathic</labelShortAdj>
+        <description>Carriers of this gene exhibit a lack of empathy and remorse, often displaying manipulative and antisocial behavior. They are driven by self-interest and show little regard for the well-being of others.</description>
+        <iconPath>UI/Genes/OMW_Psychopath</iconPath>
+        <displayCategory>OMW_Samhain</displayCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <forcedTraits>
+            <li>
+                <def>Psychopath</def>
+            </li>
+        </forcedTraits>
+    </GeneDef>
 
-<!-- Added this gene to the Samhain xenotype so that players can add/remove the HH Add-on during a save -->
-  <GeneDef>
-    <defName>OMW_Samhain_SweetTooth</defName>
-    <label>sweet tooth</label>
-    <labelShortAdj>sweet-toothed</labelShortAdj>
-    <description>Carriers of this gene possess a hyper-specialized metabolic craving for highly processed sugars, deriving immense satisfaction and mood boosts from consuming chocolate and other sweets. While they suffer no physical harm from a standard diet, denying their persistent sugar cravings leaves them irritable and prone to minor mental breaks.</description>
-    <iconPath>UI/Genes/OMW_SweetTooth</iconPath>
-	  <displayCategory>OMW_Samhain</displayCategory>    
-    <biostatCpx>0</biostatCpx>
-    <canGenerateInGeneSet>false</canGenerateInGeneSet>
-  </GeneDef>
+    <GeneDef>
+        <defName>OMW_Samhain_Brawler</defName>
+        <label>brawler</label>
+        <labelShortAdj>brawling</labelShortAdj>
+        <description>Carriers of this gene are naturally inclined towards close-combat situations, showing a preference for physical confrontation over ranged weapons. They possess enhanced strength and resilience in hand-to-hand combat.</description>
+        <iconPath>UI/Genes/OMW_Brawler</iconPath>
+        <displayCategory>OMW_Samhain</displayCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <forcedTraits>
+            <li>
+                <def>Brawler</def>
+            </li>
+        </forcedTraits>
+    </GeneDef>
+
+
+    <!-- Added this gene to the Samhain xenotype so that players can add/remove the HH Add-on during a save -->
+    <GeneDef>
+        <defName>OMW_Samhain_Costumed</defName>
+        <label>costumed</label>
+        <labelShortAdj>costumed</labelShortAdj>
+        <description>Carriers of this gene feel an intense psychological need to conceal their faces, deriving comfort and confidence from wearing headwear, masks, or full-face coverings. Uncovering their faces leaves them deeply unsettled.</description>
+        <iconPath>UI/Genes/OMW_Costumed</iconPath>
+        <displayCategory>OMW_Samhain</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    </GeneDef>
+
+    <!-- Added this gene to the Samhain xenotype so that players can add/remove the HH Add-on during a save -->
+    <GeneDef>
+        <defName>OMW_Samhain_SweetTooth</defName>
+        <label>sweet tooth</label>
+        <labelShortAdj>sweet-toothed</labelShortAdj>
+        <description>Carriers of this gene possess a hyper-specialized metabolic craving for highly processed sugars, deriving immense satisfaction and mood boosts from consuming chocolate and other sweets. While they suffer no physical harm from a standard diet, denying their persistent sugar cravings leaves them irritable and prone to minor mental breaks.</description>
+        <iconPath>UI/Genes/OMW_SweetTooth</iconPath>
+        <displayCategory>OMW_Samhain</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    </GeneDef>
 </Defs>

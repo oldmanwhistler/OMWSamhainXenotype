@@ -2,35 +2,25 @@
 <Defs>
   <ScenarioDef ParentName="ScenarioBase">
     <defName>OMW_SamhainScenario</defName>
-    <label>Shadows Over the Rim</label>
+    <label>Night Children</label>
 		<description>They move like ghosts through the high grass, faces hidden behind pale cloth and carved resin, small blades gripped tightly in child-like hands. The Samhain were never meant for open fields or warm welcomes—only the quiet margins of a hostile world. For years, your trio has lived as wandering night-hunters, moving from campsite to campsite and relying on swift steel, shared secrets, and the occasional stolen luxury of cocoa to keep the cold at bay. But constant drifting has grown weary, and even the shadows need a place to root. Your small pack has finally halted, looking out over a untouched expanse of wilderness, ready to carve out a sanctuary to call forever home.
 
 NOTE: The Samhain are unable to research. Acquiring a researcher is of the utmost importance.</description>
 	<scenario>
-		<summary>3 Samhain youth, 3 knives, 100 chocolate, 300 human meat.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>BS_PlayerColonyXenoPlus</factionDef>
+		</playerFaction>
 		<parts>
-			<li Class="ScenPart_PlanetLayer">
-				<def>PlanetLayer</def>
-				<layer>Orbit</layer>
-				<settingsDef>Orbit</settingsDef>
-				<hide>True</hide>
-				<tag>Orbit</tag>
-				<connections>
-					<li>
-						<tag>Surface</tag>
-						<zoomMode>ZoomIn</zoomMode>
-					</li>
-				</connections>
-			</li>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 				<def>ConfigurePawnsXenotypes</def>
-				<pawnChoiceCount>3</pawnChoiceCount>
+				<pawnChoiceCount>5</pawnChoiceCount>
 				<xenotypeCounts>
 					<li>
 						<count>3</count>
 						<requiredAtStart>True</requiredAtStart>
 						<xenotype>OMW_Samhain</xenotype>
-						<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						<allowedDevelopmentalStages>Child, Adult</allowedDevelopmentalStages>
 						<description>Samhain</description>
 					</li>
 				</xenotypeCounts>
@@ -38,10 +28,25 @@ NOTE: The Samhain are unable to research. Acquiring a researcher is of the utmos
 			<li Class="ScenPart_PlayerPawnsArriveMethod">
 				<def>PlayerPawnsArriveMethod</def>
 			</li>
-			<li Class="ScenPart_PawnFilter_Age">
-				<def>PawnFilter_Age</def>
-				<allowedAgeRange>15~19</allowedAgeRange>
-			</li>      
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>The wind carries the scent of damp earth as your trio steps out onto the fresh soil. Underneath your masks, your breath comes in steady, quiet rhythms. In your small hands, the weight of chipped steel feels as familiar as breath itself.
+
+You have spent too many seasons moving under cover of darkness, sleeping in hollowed ruins, and trading swift strikes for small moments of peace and whatever chocolate you could scrounge along the way. Open roads offer no lasting shelter for those who walk in the margins.
+
+Looking out over this silent patch of wilderness, the drifting ends. It is time to drop your packs, mark your territory, and carve out a home where the masked and the small need never run again.</text>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>20</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>WoodLog</thingDef>
+				<count>50</count>
+			</li>
 			<li Class="ScenPart_Naked">
 				<def>Naked</def>
 				<chance>1</chance>
@@ -57,17 +62,6 @@ NOTE: The Samhain are unable to research. Acquiring a researcher is of the utmos
 				<animalKind>Panther</animalKind>
 				<count>1</count>
 			</li>
-      <li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>MeleeWeapon_Knife</thingDef>
-				<stuff>Obsidian</stuff>
-				<count>3</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Chocolate</thingDef>
-				<count>100</count>
-			</li>
 			<li Class="ScenPart_ScatterThingsNearPlayerStart">
 				<def>ScatterThingsNearPlayerStart</def>
 				<thingDef>WoodLog</thingDef>
@@ -76,8 +70,18 @@ NOTE: The Samhain are unable to research. Acquiring a researcher is of the utmos
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Meat_Human</thingDef>
-				<count>50</count>
+				<thingDef>Pemmican</thingDef>
+				<count>200</count>
+			</li>
+			<li MayRequire="oldmanwhistler.OMWSamTrickRTreatCostume" Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>omw_SamMask</thingDef>
+				<count>3</count>
+			</li>
+			<li MayRequire="oldmanwhistler.OMWSamTrickRTreatCostume" Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>omw_SamCostume</thingDef>
+				<count>3</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -87,24 +91,15 @@ NOTE: The Samhain are unable to research. Acquiring a researcher is of the utmos
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Apparel_TribalA</thingDef>
-				<stuff>Leather_Light</stuff>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<stuff>Steel</stuff>
 				<count>3</count>
 			</li>
-			<li Class="ScenPart_StartingThing_Defined" MayRequire="oldmanwhistler.OMWSamTrickRTreatCostume">
-				<def>StartingThing_Defined</def>
-				<thingDef>omw_SamMask</thingDef>
-				<count>3</count>
-			</li>      
-			<li Class="ScenPart_StartingThing_Defined" MayRequire="oldmanwhistler.OMWSamTrickRTreatCostume">
-				<def>StartingThing_Defined</def>
-				<thingDef>omw_SamCostume</thingDef>
-				<count>3</count>
-			</li>      
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Pemmican</thingDef>
-				<count>300</count>
+				<thingDef>Apparel_TribalA</thingDef>
+				<stuff>Leather_Plain</stuff>
+				<count>3</count>
 			</li>
 			<li Class="ScenPart_StartingResearch">
 				<def>StartingResearch</def>
@@ -126,44 +121,32 @@ NOTE: The Samhain are unable to research. Acquiring a researcher is of the utmos
 				<def>StartingResearch</def>
 				<project>PsychoidBrewing</project>
 			</li>
-			<li Class="ScenPart_StartingResearch">
-				<def>StartingResearch</def>
-				<project>Fishing</project>
-			</li>
 			<li Class="ScenPart_CreateIncident">
 				<def>CreateIncident</def>
 				<incident>Eclipse</incident>
-				<intervalDays>36.9205132</intervalDays>
-				<minDays>0</minDays>
-			</li>
-			<li Class="ScenPart_CreateQuest">
-				<def>CreateQuest</def>
-				<questDef>Util_JoinerWalkIn</questDef>
-			</li>
-			<li Class="ScenPart_CreateIncident">
-				<def>CreateIncident</def>
-				<incident>RefugeePodCrash_Baby</incident>
-				<minDays>2</minDays>
+				<intervalDays>37.4250755</intervalDays>
+				<repeat>True</repeat>
 			</li>
 			<li Class="ScenPart_CreateIncident">
 				<def>CreateIncident</def>
 				<incident>GameEndedWanderersJoin</incident>
-				<minDays>10</minDays>
+				<intervalDays>29.6153316</intervalDays>
+				<minDays>3</minDays>
+			</li>
+			<li Class="ScenPart_CreateIncident">
+				<def>CreateIncident</def>
+				<incident>WildManWandersIn</incident>
+				<intervalDays>29.425642</intervalDays>
+				<minDays>1</minDays>
 			</li>
 			<li Class="ScenPart_CreateIncident">
 				<def>CreateIncident</def>
 				<incident>RaidEnemy</incident>
-				<minDays>20</minDays>
+				<intervalDays>48.8878784</intervalDays>
+				<minDays>8</minDays>
+				<maxDays>15</maxDays>
 			</li>
-			<li Class="ScenPart_GameStartDialog">
-				<def>GameStartDialog</def>
-				<text>The wind carries the scent of pine and damp earth as your trio steps out onto the fresh soil. Underneath your masks, your breath comes in steady, quiet rhythms. In your small hands, the weight of chipped obsidian feels as familiar as breath itself.
-
-You have spent too many seasons moving under cover of darkness, sleeping in hollowed ruins, and trading swift strikes for small moments of peace and whatever chocolate you could scrounge along the way. Open roads offer no lasting shelter for those who walk in the margins.
-
-Looking out over this silent patch of wilderness, the drifting ends. It is time to drop your packs, mark your territory, and carve out a home where the masked and the small need never run again.</text>
-				<closeSound>GameStartSting</closeSound>
-			</li>		</parts>
+		</parts>
 	</scenario>
   </ScenarioDef>
 </Defs>

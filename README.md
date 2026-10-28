@@ -5,10 +5,8 @@ Small creepy nighttime xenotype perfect for carving raiders on warm Septober nig
 ## What You Get
 
 - Xenotype: Samhain.
-- Gene: Samhain.
-- Gene: Sweet Tooth which enables dessert need.
-- Gene: Costumed which enables anonymity need.
-- Scenario: Three Samhain 
+- Scenario: Three Samhain nomads looking for a place to settle.
+- No faction or random spawning in factions.
 
 ## Inspiration
 
@@ -18,26 +16,36 @@ Inspired by [Sam: The Soul of Halloween](https://samthesoulofhalloween.com/) cre
 
 They definitely aren't child-sized murder demons.
 
+- Psychopath, Night Owl, and Brawler traits; pain factor 0%, melee cooldown 0.75×, psychic sensitivity 1.15×, comfortable temperatures to −40°C to 20°C, Toxic Resistance.
+- **Vanilla:** strong immunity, digestion, dark vision, intense UV sensitivity, kill thirst, pessimism, appearance/body genes.
+- **Aptitudes:** Very strong melee-focused but poor shooting, artistic, social, intellectual aptitudes. Unable to research!
+- **Big and Small:** small frame, toughness, feeding frenzy, slow aging, unliving/no-blood and carnivore traits, darkness-related combat and healing, soul-power genes.
+- **Alpha Genes:** tar blood, invisibility, darkness-linked fertility, gaunt/cancerous appearance.
+
 ## Requirements
 
 - Biotech DLC
 - [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502)
 - [Big & Small: Genes and More](https://steamcommunity.com/sharedfiles/filedetails/?id=2920751126)
+- And their requirements.
 
 ## Additional Content
 
 These aren't required but they unlock additional content.
 
-- [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380) - adds costumes to the starting scenario
-- COMING SOON: Samhain Xenotype - Hungry and Hidden Add-on
+- [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380) - adds costumes to the starting scenario.
+- COMING SOON: Samhain Xenotype - Hungry and Hidden Add-on to active the Costumed and Sweet Tooth genes.
 
-## Recommended
+## Recommended Mods
 
-- [Automatic Nightowl](https://steamcommunity.com/sharedfiles/filedetails/?id=2056012179) - Samhain all have the night owl trait.
+Samhain are night owls so [Automatic Nightowl](https://steamcommunity.com/sharedfiles/filedetails/?id=2056012179) will automatically set the sleeping schedule.
+
+Samhain are much better at melee than shooting so use [Tweaks Galore](https://steamcommunity.com/sharedfiles/filedetails/?id=2695164414) to enable "Hunters can use melee".
 
 ## Technical Details
 
-- Xenotype is XML-only by combining genes from Alpha Genes + Big and Small
+- Xenotype is XML-only by combining genes from Alpha Genes + Big and Small.
+- People can use it with less requirements and conflicts there are only fairly standard dependancies.
 
 ## Language Support
 

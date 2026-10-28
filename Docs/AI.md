@@ -5,9 +5,9 @@ This is a free mod with an AI disclosure so you can easily avoid it if that is y
 ## How AI was used
 
 - [Atlas](https://github.com/lordfelixmotosr/atlas)
-  - scaffolding, publishing, testing, machine translation
+  - scaffolding, publishing, reviewing, testing, machine translation
 - GTP-6 Luna
-  - 3 gene icons
+  - 5 gene icons
   - 1 xenotype icon
 
 ## Anti-AI

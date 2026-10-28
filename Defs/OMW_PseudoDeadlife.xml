@@ -8,7 +8,7 @@
     <scenarioCanAdd>false</scenarioCanAdd>
     <stages>
       <li>
-        <hungerRateFactor>0.7</hungerRateFactor>
+        <hungerRateFactor>0.5</hungerRateFactor>
         <restFallFactor>0.7</restFallFactor>
       </li>
     </stages>

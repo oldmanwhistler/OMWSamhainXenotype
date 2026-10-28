@@ -11,8 +11,10 @@
     <canGenerateAsCombatant>true</canGenerateAsCombatant>    
   <genes>
     <li>OMW_Samhain</li>
-    <li MayRequire="vanillaexpanded.vcooke">OMW_Samhain_SweetTooth</li>
-    <li MayRequire="vanillaexpanded.vcooke,vanillaexpanded.vmemese">OMW_Samhain_Costumed</li>
+    <li>OMW_Samhain_Psychopath</li>
+    <li>OMW_Samhain_Brawler</li>
+    <li>OMW_Samhain_SweetTooth</li>
+    <li>OMW_Samhain_Costumed</li>
     <li MayRequire="redmattis.bigsmall.core">GnomeFrame</li>
     <li MayRequire="redmattis.bigsmall.core">BS_TinyTough</li>
     <li MayRequire="redmattis.bigsmall.core">BS_ToughSkin</li>
@@ -28,19 +30,19 @@
     <li>StrongStomach</li>
     <li>RobustDigestion</li>
     <!-- darkness -->
-    <li MayRequire="sarg.alphagenes">AG_Invisibility</li>
+    <li MayRequire="ludeon.rimworld.royalty,sarg.alphagenes">AG_Invisibility</li>
     <li MayRequire="redmattis.bigsmall.core">VU_DarknessWoundHealing_UltraFast</li>
     <li MayRequire="redmattis.bigsmall.core">VU_Darkness_MoveSpeed_VeryQuick</li>
     <li>UVSensitivity_Intense</li>    
     <li MayRequire="redmattis.bigsmall.core">VU_DarknessMelee_Strong</li>
+    <li MayRequire="sarg.alphagenes">AG_FertilityDarkness</li>
+    <li>DarkVision</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_NightOwl</li>
     <!-- social-->
     <li>KillThirst</li>
     <li>Mood_Pessimist</li>
-    <li MayRequire="sarg.alphagenes">AG_Rowdy</li>
-    <li MayRequire="redmattis.bigsmall.core">BS_Abrasive</li>
     <li MayRequire="redmattis.bigsmall.core">BS_DroneKind</li>
     <li MayRequire="redmattis.bigsmall.core">BS_NoFamilyRelations</li>
-    <li MayRequire="sarg.alphagenes">AG_FertilityDarkness</li>
     <!-- appearance -->
     <li MayRequire="redmattis.bigsmall.core">VU_Pallor</li>
     <li>FacialRidges</li>
@@ -56,6 +58,11 @@
     <li>AptitudePoor_Artistic</li>
     <li>AptitudeTerrible_Social</li>
     <li>AptitudeTerrible_Intellectual</li>
+    <!-- Soul Power -->
+    <li MayRequire="redmattis.bigsmall.core">BS_HealingWithSoul</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_ConsumeSoulOnHit</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_AnomalousPsychicPower</li>
+    <li MayRequire="redmattis.bigsmall.core">BS_SoulPower</li>    
     <!-- prevent random genes from messing with the look -->
     <li>Ears_Human</li>
     <li>Hands_Human</li>
