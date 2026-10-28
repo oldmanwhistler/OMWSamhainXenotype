@@ -22,6 +22,10 @@ They definitely aren't child-sized murder demons.
 - **Big and Small:** small frame, toughness, feeding frenzy, slow aging, unliving/no-blood and carnivore traits, darkness-related combat and healing, soul-power genes.
 - **Alpha Genes:** tar blood, invisibility, darkness-linked fertility, gaunt/cancerous appearance.
 
+Q: That seems overpowered?
+
+A: Part of the balance is the Anonimity and Dessert needs, but those are handled by an optional mod add-on because they require Ideology, VE Memes and Structures, and VE Cooking.
+
 ## Requirements
 
 - Biotech DLC
@@ -34,7 +38,7 @@ They definitely aren't child-sized murder demons.
 These aren't required but they unlock additional content.
 
 - [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380) - adds costumes to the starting scenario.
-- COMING SOON: Samhain Xenotype - Hungry and Hidden Add-on to active the Costumed and Sweet Tooth genes.
+- COMING SOON: Samhain Xenotype - Hungry and Hidden Add-on to active the Costumed and Sweet Tooth genes and the Anonimity and Dessert needs.
 
 ## Recommended Mods
 
@@ -44,8 +48,7 @@ Samhain are much better at melee than shooting so use [Tweaks Galore](https://st
 
 ## Technical Details
 
-- Xenotype is XML-only by combining genes from Alpha Genes + Big and Small.
-- People can use it with less requirements and conflicts there are only fairly standard dependancies.
+- This Xenotype mod is XML-only by combining genes from Alpha Genes + Big and Small.
 
 ## Language Support
 
