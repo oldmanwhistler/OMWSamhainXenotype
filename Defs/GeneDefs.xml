@@ -13,7 +13,7 @@
         <iconPath>UI/Genes/OMW_Samhain</iconPath>
         <biostatArc>2</biostatArc>
         <biostatCpx>5</biostatCpx>
-        <biostatMet>-3</biostatMet>
+        <biostatMet>0</biostatMet>
         <displayCategory>OMW_Samhain</displayCategory>
         <descriptionHyperlinks>
             <HediffDef>OMW_PseudoDeadlife</HediffDef>
