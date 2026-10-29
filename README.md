@@ -1,12 +1,19 @@
 # Samhain Xenotype
 
-EN: Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
+- EN: Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
+- ZH: 一种令人毛骨悚然的小型夜行性异种，非常适合在温暖的九月季之夜将袭击者大卸八块。
+- KO: 따스한 셉토버의 밤, 습격자들을 베어 넘기기에 안성맞춤인, 기괴하고 작은 야행성 제노타입.
+- JA: 夜にうごめく不気味な異種族。セプトバーの暖かい夜、襲撃者を切り刻むにはうってつけの存在だ。
+- RU: Небольшой жуткий ночной ксенотип — идеальный вариант для того, чтобы кромсать рейдеров тёплыми ночами септобера.
+- ES: Un xenotipo nocturno, pequeño y espeluznante, ideal para despedazar asaltantes en las cálidas noches de Septober.
+- FR: Un petit xénotype nocturne et inquiétant, idéal pour tailler en pièces les pillards lors des douces nuits de Septobre.
 
 ## What You Get
 
 - Xenotype: Samhain.
 - Scenario: Three Samhain nomads looking for a place to settle.
 - No faction or random spawning in factions.
+- XML only -- no code other than what is provided by Alpha Genes and Big & Small.
 
 ## Inspiration
 
@@ -73,22 +80,24 @@ Samhain are much better at melee than shooting so use [Tweaks Galore](https://st
 ## Technical Details
 
 - This Xenotype mod is XML-only by combining genes from Alpha Genes + Big and Small.
-- Tested with 300 mods.
+- Tested with [300 mods](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/Docs/tests/Modlist.md).
 
 ## Language Support
 
-- English
+- English with machine translations for Simplified Chinese, Korean, Japanese, Russian, Spanish, and French.
 
 ## Links
 
-- [Changelog](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume/blob/main/CHANGELOG.md)
-- [Steam](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380)
-- [GitHub](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume)
-- [AI Disclosure](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume/blob/main/Docs/AI.md)
-- [MIT License](https://github.com/oldmanwhistler/OMWSamTrickOrTreatCostume/blob/main/LICENSE)
+- [Changelog](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/Docs/CHANGELOG.md)
+- Steam
+- [GitHub](https://github.com/oldmanwhistler/OMWSamhainXenotype)
+- [AI Disclosure](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/Docs/AI.md)
+- [MIT License](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/LICENSE)
 
 ## DISCLAIMER
 
 This is an unofficial, non-commercial fan work, not affiliated with, endorsed by, or sponsored by Michael Dougherty or Sam: The Soul of Halloween. It does not include any assets or intellectual propery from Michael Dougherty, Trick 'R Treat, etc.
+
+![Splash](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotype/refs/heads/main/Docs/images/splash.png)
 
 keywords: halloween, trick or treat, darkness, night, candy, horror, serial killer
