@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_Samhain.label>サムハイン</OMW_Samhain.label>
+  <OMW_Samhain.description>小柄で子どものような体つきをしたサムハインは、謎めいた仮面で顔を隠す。銃より刃物を好み、甘いもの、とりわけチョコレートを心の慰めとして愛する。</OMW_Samhain.description>
+  <OMW_Samhain_Psychopath.label>サイコパス</OMW_Samhain_Psychopath.label>
+  <OMW_Samhain_Psychopath.labelShortAdj>冷酷な</OMW_Samhain_Psychopath.labelShortAdj>
+  <OMW_Samhain_Psychopath.description>この遺伝子を持つ者は共感や後悔に乏しく、他人を操ったり反社会的な振る舞いをしたりする。自分の利益を優先し、他者の幸福をほとんど気にかけない。</OMW_Samhain_Psychopath.description>
+  <OMW_Samhain_Brawler.label>喧嘩屋</OMW_Samhain_Brawler.label>
+  <OMW_Samhain_Brawler.labelShortAdj>喧嘩好きな</OMW_Samhain_Brawler.labelShortAdj>
+  <OMW_Samhain_Brawler.description>この遺伝子を持つ者は接近戦を好み、遠距離武器より肉弾戦を選ぶ。素手の戦いでは強い力と耐久力を発揮する。</OMW_Samhain_Brawler.description>
+  <OMW_Samhain_Costumed.label>仮装好き</OMW_Samhain_Costumed.label>
+  <OMW_Samhain_Costumed.labelShortAdj>仮装した</OMW_Samhain_Costumed.labelShortAdj>
+  <OMW_Samhain_Costumed.description>この遺伝子を持つ者は顔を隠したいという強い心理的欲求を抱く。帽子、仮面、顔全体を覆う装備を身につけると安心と自信を得るが、顔をさらすと深く動揺する。</OMW_Samhain_Costumed.description>
+  <OMW_Samhain_SweetTooth.label>甘党</OMW_Samhain_SweetTooth.label>
+  <OMW_Samhain_SweetTooth.labelShortAdj>甘党の</OMW_Samhain_SweetTooth.labelShortAdj>
+  <OMW_Samhain_SweetTooth.description>この遺伝子を持つ者は加工糖に特化した代謝欲求を持ち、チョコレートなどの甘味を食べると大きな満足を得る。通常の食事で害はないが、甘味を長く断たれると苛立ち、軽い精神崩壊を起こしやすくなる。</OMW_Samhain_SweetTooth.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainScenario.label>Les enfants de la nuit</OMW_SamhainScenario.label>
+  <OMW_SamhainScenario.description>Ils avancent comme des fantômes dans les hautes herbes, le visage caché sous du tissu pâle et de la résine sculptée, de petites lames serrées dans leurs mains enfantines. Les Samhains n’étaient pas faits pour les champs ouverts ni les accueils chaleureux, mais pour les marges silencieuses d’un monde hostile. Depuis des années, votre trio erre de campement en campement, comptant sur l’acier, les secrets partagés et quelques précieuses fèves de cacao dérobées pour affronter le froid. Cette errance constante vous a épuisés ; même les ombres ont besoin d’un endroit où s’enraciner. Votre petit groupe s’est enfin arrêté devant une étendue sauvage intacte, prêt à bâtir un foyer permanent.
+
+REMARQUE : Les Samhains ne peuvent pas faire de recherches. Il est essentiel de trouver un chercheur.</OMW_SamhainScenario.description>
+  <OMW_SamhainScenario.scenario.parts.0.xenotypeCounts.0.description>Samhain</OMW_SamhainScenario.scenario.parts.0.xenotypeCounts.0.description>
+  <OMW_SamhainScenario.scenario.parts.2.text>Le vent porte l’odeur de la terre humide tandis que votre trio foule un sol nouveau. Sous les masques, les respirations sont régulières et silencieuses. Dans leurs petites mains, le poids de l’acier émoussé est aussi familier que le souffle.
+
+Vous avez passé trop de saisons à voyager dans l’obscurité, à dormir dans des ruines désertes et à troquer des frappes rapides contre quelques instants de paix et le chocolat trouvé en chemin. Les routes ouvertes n’offrent aucun abri durable à ceux qui vivent en marge.
+
+En contemplant cette étendue sauvage et silencieuse, l’errance prend fin. Il est temps de déposer vos sacs, de marquer votre territoire et de bâtir un foyer où les petits masqués n’auront plus à fuir.</OMW_SamhainScenario.scenario.parts.2.text>
+</LanguageData>

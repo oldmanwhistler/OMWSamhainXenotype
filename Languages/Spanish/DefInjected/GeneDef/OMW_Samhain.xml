@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_Samhain.label>Samhain</OMW_Samhain.label>
+  <OMW_Samhain.description>Los Samhain son pequeños y tienen una complexión infantil, con el rostro oculto tras máscaras misteriosas. Prefieren las hojas de acero a las armas de fuego y sienten una pasión insaciable por los dulces, sobre todo el chocolate, un raro consuelo en la dura vida de la frontera.</OMW_Samhain.description>
+  <OMW_Samhain_Psychopath.label>Psicópata</OMW_Samhain_Psychopath.label>
+  <OMW_Samhain_Psychopath.labelShortAdj>psicópata</OMW_Samhain_Psychopath.labelShortAdj>
+  <OMW_Samhain_Psychopath.description>Quienes portan este gen carecen de empatía y remordimiento, y suelen manipular a los demás y mostrar conductas antisociales. Priorizan su propio beneficio y apenas se preocupan por el bienestar ajeno.</OMW_Samhain_Psychopath.description>
+  <OMW_Samhain_Brawler.label>Matón</OMW_Samhain_Brawler.label>
+  <OMW_Samhain_Brawler.labelShortAdj>pendenciero</OMW_Samhain_Brawler.labelShortAdj>
+  <OMW_Samhain_Brawler.description>Quienes portan este gen se inclinan por el combate cercano y prefieren pelear cuerpo a cuerpo en vez de usar armas a distancia. Son más fuertes y resistentes en el combate sin armas.</OMW_Samhain_Brawler.description>
+  <OMW_Samhain_Costumed.label>Disfrazado</OMW_Samhain_Costumed.label>
+  <OMW_Samhain_Costumed.labelShortAdj>disfrazado</OMW_Samhain_Costumed.labelShortAdj>
+  <OMW_Samhain_Costumed.description>Quienes portan este gen sienten una intensa necesidad psicológica de ocultar su rostro. Llevar sombreros, máscaras o coberturas faciales completas les aporta seguridad y confianza; mostrar la cara les causa una profunda inquietud.</OMW_Samhain_Costumed.description>
+  <OMW_Samhain_SweetTooth.label>Goloso</OMW_Samhain_SweetTooth.label>
+  <OMW_Samhain_SweetTooth.labelShortAdj>goloso</OMW_Samhain_SweetTooth.labelShortAdj>
+  <OMW_Samhain_SweetTooth.description>Quienes portan este gen tienen una necesidad metabólica especializada de azúcares procesados y disfrutan enormemente del chocolate y otros dulces. Una dieta normal no les hace daño, pero la falta prolongada de dulces los irrita y aumenta el riesgo de crisis mentales leves.</OMW_Samhain_SweetTooth.description>
+</LanguageData>

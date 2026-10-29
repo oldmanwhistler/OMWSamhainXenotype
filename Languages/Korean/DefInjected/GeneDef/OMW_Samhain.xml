@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_Samhain.label>삼하인</OMW_Samhain.label>
+  <OMW_Samhain.description>작은 체구와 어린아이 같은 몸을 지닌 삼하인 이종족은 신비로운 가면으로 얼굴을 가린다. 총기보다 칼날을 선호하며, 단것을 몹시 좋아하고 특히 초콜릿을 귀한 위안으로 여긴다.</OMW_Samhain.description>
+  <OMW_Samhain_Psychopath.label>사이코패스</OMW_Samhain_Psychopath.label>
+  <OMW_Samhain_Psychopath.labelShortAdj>사이코패스적인</OMW_Samhain_Psychopath.labelShortAdj>
+  <OMW_Samhain_Psychopath.description>이 유전자를 가진 자는 공감과 후회가 부족하고, 타인을 조종하거나 반사회적인 행동을 보이곤 한다. 자신의 이익을 우선하며 타인의 안녕에는 거의 신경 쓰지 않는다.</OMW_Samhain_Psychopath.description>
+  <OMW_Samhain_Brawler.label>싸움꾼</OMW_Samhain_Brawler.label>
+  <OMW_Samhain_Brawler.labelShortAdj>싸움꾼 기질의</OMW_Samhain_Brawler.labelShortAdj>
+  <OMW_Samhain_Brawler.description>이 유전자를 가진 자는 근접전을 선호하며 원거리 무기보다 몸싸움을 택한다. 맨손 전투에서 더 강한 힘과 회복력을 발휘한다.</OMW_Samhain_Brawler.description>
+  <OMW_Samhain_Costumed.label>분장 애호가</OMW_Samhain_Costumed.label>
+  <OMW_Samhain_Costumed.labelShortAdj>분장한</OMW_Samhain_Costumed.labelShortAdj>
+  <OMW_Samhain_Costumed.description>이 유전자를 가진 자는 얼굴을 가리고 싶어 하는 강한 심리적 욕구가 있다. 모자, 가면, 전면 가리개를 착용하면 안도감과 자신감을 느끼며, 얼굴이 드러나면 크게 불안해한다.</OMW_Samhain_Costumed.description>
+  <OMW_Samhain_SweetTooth.label>단것 애호가</OMW_Samhain_SweetTooth.label>
+  <OMW_Samhain_SweetTooth.labelShortAdj>단것을 좋아하는</OMW_Samhain_SweetTooth.labelShortAdj>
+  <OMW_Samhain_SweetTooth.description>이 유전자를 가진 자는 가공당에 특화된 대사 욕구를 지니며 초콜릿과 다른 단것을 먹으면 큰 만족을 느낀다. 일반 식단은 해롭지 않지만 단것을 오래 먹지 못하면 짜증이 나고 가벼운 정신적 위기에 빠지기 쉽다.</OMW_Samhain_SweetTooth.description>
+</LanguageData>

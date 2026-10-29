@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_Samhain.label>萨姆海因</OMW_Samhain.label>
+  <OMW_Samhain.description>萨姆海因异种族身材矮小，体态如孩童，脸庞藏在神秘面具之后。他们偏爱刀刃而非枪械，嗜甜如命，尤其钟爱巧克力；在边缘世界严酷的生活中，甜食是难得的慰藉。</OMW_Samhain.description>
+  <OMW_Samhain_Psychopath.label>冷酷无情</OMW_Samhain_Psychopath.label>
+  <OMW_Samhain_Psychopath.labelShortAdj>冷酷的</OMW_Samhain_Psychopath.labelShortAdj>
+  <OMW_Samhain_Psychopath.description>携带此基因者缺乏同理心与悔意，常表现出操纵他人、反社会的行为。他们以自身利益为先，很少顾及他人的福祉。</OMW_Samhain_Psychopath.description>
+  <OMW_Samhain_Brawler.label>斗士</OMW_Samhain_Brawler.label>
+  <OMW_Samhain_Brawler.labelShortAdj>好斗的</OMW_Samhain_Brawler.labelShortAdj>
+  <OMW_Samhain_Brawler.description>携带此基因者天生倾向近身战斗，更偏好肉搏而非远程武器。他们在徒手搏斗中力量更强，也更耐打。</OMW_Samhain_Brawler.description>
+  <OMW_Samhain_Costumed.label>扮装者</OMW_Samhain_Costumed.label>
+  <OMW_Samhain_Costumed.labelShortAdj>扮装的</OMW_Samhain_Costumed.labelShortAdj>
+  <OMW_Samhain_Costumed.description>携带此基因者有强烈的心理需求，必须遮住面容；戴上头饰、面具或全脸遮蔽物会让他们感到安心和自信。露出脸会令他们深感不安。</OMW_Samhain_Costumed.description>
+  <OMW_Samhain_SweetTooth.label>嗜甜者</OMW_Samhain_SweetTooth.label>
+  <OMW_Samhain_SweetTooth.labelShortAdj>嗜甜的</OMW_Samhain_SweetTooth.labelShortAdj>
+  <OMW_Samhain_SweetTooth.description>携带此基因者对高度加工糖类有特殊的代谢需求，食用巧克力和其他甜食会令他们极度满足。普通饮食不会伤害他们，但长期得不到甜食会使他们烦躁，并更容易出现轻微精神崩溃。</OMW_Samhain_SweetTooth.description>
+</LanguageData>

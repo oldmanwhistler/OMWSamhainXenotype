@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_Samhain.label>Samhain</OMW_Samhain.label>
+  <OMW_Samhain.description>Les Samhains sont petits et ont une silhouette enfantine, le visage dissimulé derrière des masques mystérieux. Ils préfèrent les lames aux armes à feu et raffolent des sucreries, surtout du chocolat, un rare réconfort dans la dure vie de la Frontière.</OMW_Samhain.description>
+  <OMW_Samhain_Psychopath.label>Psychopathe</OMW_Samhain_Psychopath.label>
+  <OMW_Samhain_Psychopath.labelShortAdj>psychopathe</OMW_Samhain_Psychopath.labelShortAdj>
+  <OMW_Samhain_Psychopath.description>Les porteurs de ce gène manquent d’empathie et de remords, et adoptent souvent des comportements manipulateurs et antisociaux. Ils privilégient leur intérêt personnel et se soucient peu du bien-être d’autrui.</OMW_Samhain_Psychopath.description>
+  <OMW_Samhain_Brawler.label>Bagarreur</OMW_Samhain_Brawler.label>
+  <OMW_Samhain_Brawler.labelShortAdj>bagarreur</OMW_Samhain_Brawler.labelShortAdj>
+  <OMW_Samhain_Brawler.description>Les porteurs de ce gène sont naturellement attirés par le combat rapproché et préfèrent les affrontements au corps à corps aux armes à distance. Ils sont plus forts et plus résistants à mains nues.</OMW_Samhain_Brawler.description>
+  <OMW_Samhain_Costumed.label>Costumé</OMW_Samhain_Costumed.label>
+  <OMW_Samhain_Costumed.labelShortAdj>costumé</OMW_Samhain_Costumed.labelShortAdj>
+  <OMW_Samhain_Costumed.description>Les porteurs de ce gène ressentent un besoin psychologique intense de dissimuler leur visage. Chapeaux, masques et couvre-visages complets leur apportent réconfort et assurance ; montrer leur visage les trouble profondément.</OMW_Samhain_Costumed.description>
+  <OMW_Samhain_SweetTooth.label>Gourmand</OMW_Samhain_SweetTooth.label>
+  <OMW_Samhain_SweetTooth.labelShortAdj>gourmand</OMW_Samhain_SweetTooth.labelShortAdj>
+  <OMW_Samhain_SweetTooth.description>Les porteurs de ce gène ont un besoin métabolique particulier de sucres transformés et éprouvent un immense plaisir à manger du chocolat et d’autres douceurs. Une alimentation ordinaire ne leur nuit pas, mais le manque prolongé de sucreries les irrite et favorise de légères crises mentales.</OMW_Samhain_SweetTooth.description>
+</LanguageData>

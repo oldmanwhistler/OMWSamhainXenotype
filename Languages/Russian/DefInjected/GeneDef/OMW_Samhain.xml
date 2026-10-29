@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_Samhain.label>Самхейн</OMW_Samhain.label>
+  <OMW_Samhain.description>Самхейны невысоки ростом и сложены как дети, а их лица скрыты за загадочными масками. Они предпочитают клинки огнестрельному оружию и страстно любят сладкое, особенно шоколад, который становится редким утешением в суровом мире.</OMW_Samhain.description>
+  <OMW_Samhain_Psychopath.label>Психопат</OMW_Samhain_Psychopath.label>
+  <OMW_Samhain_Psychopath.labelShortAdj>психопатичный</OMW_Samhain_Psychopath.labelShortAdj>
+  <OMW_Samhain_Psychopath.description>Носители этого гена лишены эмпатии и угрызений совести, часто манипулируют окружающими и ведут себя антисоциально. Они ставят собственную выгоду выше всего и почти не заботятся о благополучии других.</OMW_Samhain_Psychopath.description>
+  <OMW_Samhain_Brawler.label>Драчун</OMW_Samhain_Brawler.label>
+  <OMW_Samhain_Brawler.labelShortAdj>задиристый</OMW_Samhain_Brawler.labelShortAdj>
+  <OMW_Samhain_Brawler.description>Носители этого гена склонны к ближнему бою и предпочитают рукопашные схватки огнестрельному оружию. В бою без оружия они сильнее и выносливее.</OMW_Samhain_Brawler.description>
+  <OMW_Samhain_Costumed.label>Любитель маскировки</OMW_Samhain_Costumed.label>
+  <OMW_Samhain_Costumed.labelShortAdj>замаскированный</OMW_Samhain_Costumed.labelShortAdj>
+  <OMW_Samhain_Costumed.description>Носители этого гена испытывают сильную психологическую потребность скрывать лицо. Головные уборы, маски и полные лицевые покрытия дарят им спокойствие и уверенность; открытое лицо вызывает глубокую тревогу.</OMW_Samhain_Costumed.description>
+  <OMW_Samhain_SweetTooth.label>Сладкоежка</OMW_Samhain_SweetTooth.label>
+  <OMW_Samhain_SweetTooth.labelShortAdj>сладкоежка</OMW_Samhain_SweetTooth.labelShortAdj>
+  <OMW_Samhain_SweetTooth.description>Носители этого гена обладают особой метаболической потребностью в переработанном сахаре и получают огромное удовольствие от шоколада и других сладостей. Обычная пища им не вредит, но нехватка сладкого вызывает раздражительность и повышает риск лёгких психических срывов.</OMW_Samhain_SweetTooth.description>
+</LanguageData>

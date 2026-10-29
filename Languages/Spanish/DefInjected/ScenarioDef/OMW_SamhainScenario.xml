@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainScenario.label>Hijos de la noche</OMW_SamhainScenario.label>
+  <OMW_SamhainScenario.description>Se mueven como fantasmas entre la hierba alta, con el rostro oculto tras tela pálida y resina tallada, y pequeñas hojas aferradas en manos infantiles. Los Samhain nunca fueron hechos para campos abiertos ni bienvenidas cálidas, sino para los márgenes silenciosos de un mundo hostil. Durante años, vuestro trío ha vagado de campamento en campamento, confiando en el acero, los secretos compartidos y algún que otro cacao robado para soportar el frío. El constante vagar los ha cansado; hasta las sombras necesitan un lugar donde echar raíces. Por fin, el pequeño grupo se detiene ante una extensión salvaje e intacta, listo para construir un hogar definitivo.
+
+NOTA: Los Samhain no pueden investigar. Es fundamental conseguir un investigador.</OMW_SamhainScenario.description>
+  <OMW_SamhainScenario.scenario.parts.0.xenotypeCounts.0.description>Samhain</OMW_SamhainScenario.scenario.parts.0.xenotypeCounts.0.description>
+  <OMW_SamhainScenario.scenario.parts.2.text>El viento trae olor a tierra húmeda cuando vuestro trío pisa el suelo virgen. Bajo las máscaras, la respiración es tranquila y acompasada. En sus pequeñas manos, el peso del acero mellado resulta tan familiar como respirar.
+
+Habéis pasado demasiadas estaciones ocultándoos en la oscuridad, durmiendo entre ruinas y cambiando golpes veloces por breves momentos de paz y el chocolate que pudierais encontrar. Los caminos abiertos no ofrecen refugio duradero a quienes viven al margen.
+
+Al contemplar esta extensión silenciosa, termina el vagar. Es hora de dejar las mochilas, marcar vuestro territorio y construir un hogar donde los pequeños enmascarados ya no tengan que huir.</OMW_SamhainScenario.scenario.parts.2.text>
+</LanguageData>
