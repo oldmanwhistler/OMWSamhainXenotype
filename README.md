@@ -68,7 +68,7 @@ The Anonymity and Dessert needs are added by an optional mod add-on because they
 
 These aren't required but they unlock additional content.
 
-- [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/itemedittext/?id=3827335380) - adds costumes to the starting scenario.
+- [Sam's Trick or Treat Costume](https://steamcommunity.com/sharedfiles/filedetails/?id=3827335380) - adds costumes to the starting scenario.
 - COMING SOON: Samhain Xenotype - Hungry and Hidden Add-on to active the Costumed and Sweet Tooth genes and the Anonimity and Dessert needs.
 
 ## Recommended Mods
@@ -89,7 +89,7 @@ Samhain are much better at melee than shooting so use [Tweaks Galore](https://st
 ## Links
 
 - [Changelog](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/Docs/CHANGELOG.md)
-- Steam
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3829680933)
 - [GitHub](https://github.com/oldmanwhistler/OMWSamhainXenotype)
 - [AI Disclosure](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/Docs/AI.md)
 - [MIT License](https://github.com/oldmanwhistler/OMWSamhainXenotype/blob/main/LICENSE)
