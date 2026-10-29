@@ -11,10 +11,10 @@
         <label>Samhain</label>
         <description>Small in stature and possessing a child-like frame, the Samhain xenotype hides their faces behind mysterious masks while harbouring a dark propensity for combat with blades over firearms. Driven by an insatiable sweet tooth, these secretive humanoids possess an intense fondness for chocolate, often seeking it out as a rare comfort amid the rim's harsh realities.</description>
         <iconPath>UI/Genes/OMW_Samhain</iconPath>
-        <biostatCpx>1</biostatCpx>
-        <biostatMet>1</biostatMet>
+        <biostatArc>2</biostatArc>
+        <biostatCpx>5</biostatCpx>
+        <biostatMet>-3</biostatMet>
         <displayCategory>OMW_Samhain</displayCategory>
-        <selectionWeight>0</selectionWeight>
         <descriptionHyperlinks>
             <HediffDef>OMW_PseudoDeadlife</HediffDef>
         </descriptionHyperlinks>
@@ -24,6 +24,7 @@
                 <hediffToWholeBody>OMW_PseudoDeadlife</hediffToWholeBody>
             </li>
         </modExtensions>
+        <selectionWeight>0</selectionWeight>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <painFactor>0</painFactor>
         <statFactors>
@@ -46,6 +47,7 @@
         <displayCategory>OMW_Samhain</displayCategory>
         <biostatCpx>1</biostatCpx>
         <biostatMet>1</biostatMet>
+        <selectionWeight>0</selectionWeight>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <forcedTraits>
             <li>
@@ -62,7 +64,8 @@
         <iconPath>UI/Genes/OMW_Brawler</iconPath>
         <displayCategory>OMW_Samhain</displayCategory>
         <biostatCpx>1</biostatCpx>
-        <biostatMet>1</biostatMet>
+        <biostatMet>-1</biostatMet>
+        <selectionWeight>0</selectionWeight>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <forcedTraits>
             <li>
@@ -80,8 +83,9 @@
         <description>Carriers of this gene feel an intense psychological need to conceal their faces, deriving comfort and confidence from wearing headwear, masks, or full-face coverings. Uncovering their faces leaves them deeply unsettled.</description>
         <iconPath>UI/Genes/OMW_Costumed</iconPath>
         <displayCategory>OMW_Samhain</displayCategory>
-        <biostatCpx>0</biostatCpx>
-        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <selectionWeight>0</selectionWeight>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
     </GeneDef>
 
@@ -93,8 +97,9 @@
         <description>Carriers of this gene possess a hyper-specialized metabolic craving for highly processed sugars, deriving immense satisfaction and mood boosts from consuming chocolate and other sweets. While they suffer no physical harm from a standard diet, denying their persistent sugar cravings leaves them irritable and prone to minor mental breaks.</description>
         <iconPath>UI/Genes/OMW_SweetTooth</iconPath>
         <displayCategory>OMW_Samhain</displayCategory>
-        <biostatCpx>0</biostatCpx>
-        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <selectionWeight>0</selectionWeight>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
     </GeneDef>
 </Defs>

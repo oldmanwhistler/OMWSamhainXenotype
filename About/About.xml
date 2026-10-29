@@ -3,7 +3,22 @@
   <name>[OMW] Samhain Xenotype</name>
   <packageId>oldmanwhistler.OMWSamhainXenotype</packageId>
   <author>oldmanwhistler</author>
-  <description>Adds the player-selectable Samhain xenotype, optional VME need genes, and an Anomaly sacrifice ritual.</description>
+  <description># Samhain Xenotype
+
+- EN: Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
+- ZH: 一种令人毛骨悚然的小型夜行性异种，非常适合在温暖的九月季之夜将袭击者大卸八块。
+- KO: 따스한 셉토버의 밤, 습격자들을 베어 넘기기에 안성맞춤인, 기괴하고 작은 야행성 제노타입.
+- JA: 夜にうごめく不気味な異種族。セプトバーの暖かい夜、襲撃者を切り刻むにはうってつけの存在だ。
+- RU: Небольшой жуткий ночной ксенотип — идеальный вариант для того, чтобы кромсать рейдеров тёплыми ночами септобера.
+- ES: Un xenotipo nocturno, pequeño y espeluznante, ideal para despedazar asaltantes en las cálidas noches de Septober.
+- FR: Un petit xénotype nocturne et inquiétant, idéal pour tailler en pièces les pillards lors des douces nuits de Septobre.
+
+## What You Get
+
+- Xenotype: Samhain.
+- Scenario: Three Samhain nomads looking for a place to settle.
+- Mod is XML-only and relies on VEF, Big and Small, and Alpha Genes for functionality.  
+- No faction.</description>
   <supportedVersions>
     <li>1.6</li>  
     <li>1.7</li>
@@ -14,26 +29,30 @@
       <displayName>RimWorld Biotech DLC</displayName>
     </li>   
     <li>
-      <packageId>redmattis.betterprerequisites</packageId>
+      <packageId>RedMattis.BetterPrerequisites</packageId>
       <displayName>Big and Small - Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2925432336</steamWorkshopUrl>      
     </li>
     <li>
       <packageId>oskarpotocki.vanillafactionsexpanded.core</packageId>
       <displayName>Vanilla Expanded Framework</displayName>    
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>      
     </li>
     <li>
       <packageId>RedMattis.BigSmall.Core</packageId>
       <displayName>Big and Small - Genes &amp; More</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2920751126</steamWorkshopUrl>      
     </li>
     <li>
       <packageId>sarg.alphagenes</packageId>
       <displayName>Alpha Genes</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2891845502</steamWorkshopUrl>      
     </li>
   </modDependencies>
   <loadAfter>
   <li>ludeon.rimworld.biotech</li>
     <li>oskarpotocki.vanillafactionsexpanded.core</li>
-    <li>redmattis.betterprerequisites</li>
+    <li>RedMattis.BetterPrerequisites</li>
     <li>RedMattis.BigSmall.Core</li>
     <li>sarg.alphagenes</li>
     <li>oldmanwhistler.OMWSamTrickRTreatCostume</li>

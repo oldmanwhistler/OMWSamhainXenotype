@@ -12,8 +12,8 @@
 
 - Xenotype: Samhain.
 - Scenario: Three Samhain nomads looking for a place to settle.
-- No faction or random spawning in factions.
-- XML only -- no code other than what is provided by Alpha Genes and Big & Small.
+- Mod is XML-only and relies on VEF, Big and Small, and Alpha Genes for functionality.  
+- No faction.
 
 ## Inspiration
 

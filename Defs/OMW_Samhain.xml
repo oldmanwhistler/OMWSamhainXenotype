@@ -6,7 +6,7 @@
     <description>A Samhain xenotype.</description>
     <iconPath>UI/Icons/Xenotypes/OMW_Samhain</iconPath>
     <displayPriority>1000</displayPriority>
-    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <factionlessGenerationWeight>0.1</factionlessGenerationWeight>
     <inheritable>true</inheritable>    
     <canGenerateAsCombatant>true</canGenerateAsCombatant>    
   <genes>
